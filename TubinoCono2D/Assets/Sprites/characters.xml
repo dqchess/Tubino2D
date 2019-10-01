@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d5c3df20306422e89f1d6f0471013f8c:235026450a31b9d8034cc5c9f77ae853:fd4a04ca3ae6018f572695223097d7b1$ -->
+<TextureAtlas imagePath="characters.png" width="1786" height="2033">
+    <SubTexture name="Becerril1" x="1" y="1415" width="454" height="617" frameX="-9" frameY="-86" frameWidth="474" frameHeight="728"/>
+    <SubTexture name="Becerril2" x="913" y="1365" width="435" height="641" frameX="-16" frameY="-86" frameWidth="474" frameHeight="728"/>
+    <SubTexture name="Becerril3" x="1329" y="1" width="439" height="642" frameX="-12" frameY="-86" frameWidth="474" frameHeight="728"/>
+    <SubTexture name="Becerrilgolpeado1" x="457" y="1413" width="454" height="617" frameX="-9" frameY="-86" frameWidth="474" frameHeight="728"/>
+    <SubTexture name="Becerrilgolpeado2" x="1350" y="1289" width="435" height="641" frameX="-16" frameY="-86" frameWidth="474" frameHeight="728"/>
+    <SubTexture name="Becerrilgolpeado3" x="1329" y="645" width="439" height="642" frameX="-12" frameY="-86" frameWidth="474" frameHeight="728"/>
+    <SubTexture name="tubino achicado1" x="873" y="1" width="454" height="680" frameX="-9" frameY="-23" frameWidth="474" frameHeight="728"/>
+    <SubTexture name="tubino achicado2" x="438" y="1" width="433" height="704" frameX="-16" frameY="-23" frameWidth="474" frameHeight="728"/>
+    <SubTexture name="tubino achicado3" x="1" y="1" width="435" height="705" frameX="-12" frameY="-23" frameWidth="474" frameHeight="728"/>
+    <SubTexture name="tubino golpeado1" x="873" y="683" width="454" height="680" frameX="-9" frameY="-23" frameWidth="474" frameHeight="728"/>
+    <SubTexture name="tubino golpeado2" x="438" y="707" width="433" height="704" frameX="-16" frameY="-23" frameWidth="474" frameHeight="728"/>
+    <SubTexture name="tubino golpeado3" x="1" y="708" width="435" height="705" frameX="-12" frameY="-23" frameWidth="474" frameHeight="728"/>
+</TextureAtlas>
