@@ -36,7 +36,56 @@ public class EnemyFactory: Factory
         limitFamily = 0;
     }
 
-    public void Create(int meters)
+    int currentHorda = 0;
+    public Vector3 initialpos = new Vector3(-2,6,0);
+    public List<Vector3> offsets = new List<Vector3>() { 
+        new Vector3(0,0,0) ,
+        new Vector3(2,0,0) ,
+        new Vector3(4,0,0) ,
+        new Vector3(0,2,0) ,
+        new Vector3(2,2,0) ,
+        new Vector3(4,2,0) ,
+        new Vector3(0,4,0) ,
+        new Vector3(2,4,0) ,
+        new Vector3(4,4,0) };
+
+    Level level;
+    public void Create(Level _level)
+    {
+        this.level = _level;
+        NextHorda();
+        
+    }
+
+    void NextHorda()
+    {
+        if (currentHorda == level.hordas.Count)
+        {
+            Game.Me.LevelClear();
+            return;
+        }
+
+
+        cHorda.Clear();
+        for (int i = 0; i < level.hordas[currentHorda].patterns.Length; i++)
+        {
+            if (level.hordas[currentHorda].patterns[i] >= 0)
+            {
+                GameObject enemy = TrashMan.spawn(gameWeights.enemy[level.hordas[currentHorda].patterns[i]].name);
+                Enemy e = enemy.GetComponent<Enemy>();
+                e.GetComponent<Enemy>().Initialize();
+                enemy.transform.position = initialpos + offsets[i];
+                //Debug.Log(initialpos + offsets[i] + "  " + offsets[i]);
+                cHorda.Add(e);
+            }           
+        }
+        currentHorda++;
+        
+    }
+
+
+
+    /*public void Create(int meters)
     {
         if (!this.canGenerate)
             return;
@@ -80,11 +129,11 @@ public class EnemyFactory: Factory
 
        
         GameObject pattern = TrashMan.spawn(gameWeights.levels[res].name);
-        pattern.transform.position = new Vector3(0, -6, 0);
+        pattern.transform.position = new Vector3(0, 8, 0);
         Spawns spawns = pattern.GetComponent<Spawns>();
 
         FillEnemy(spawns, meters);
-    }
+    }*/
 
 
     public void FillEnemy(Spawns _spawns, int meters)
@@ -100,6 +149,8 @@ public class EnemyFactory: Factory
 
             cHorda.Add(e);
         }
+
+        TrashMan.despawn(_spawns.gameObject);
     }
 
     public void ReportDie(Enemy enemy)
@@ -115,7 +166,7 @@ public class EnemyFactory: Factory
         }
 
         if (endHorda)
-            Create(countHorda);
+            NextHorda();
     }
 
     public int countHorda = 0;

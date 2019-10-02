@@ -13,10 +13,18 @@ public class Game : MonoBehaviour
     public int lifes = 3;
     public int score = 0;
     public Hearts hearts;
+
+    public LevelClearPopup levelClearPopup;
+    public GameOverPopup gameOverPopup;
     private void Awake()
     {
         Me = this;
         levelMan = this.GetComponent<LevelMan>();
+    }
+
+    public void LevelClear()
+    {
+        levelClearPopup.Open();
     }
 
     private void Start()
@@ -28,7 +36,7 @@ public class Game : MonoBehaviour
     {
         isPlaying = true;
         this.score = 0;
-        levelMan.StartGeneration();
+        levelMan.StartGeneration(WorldMan.Me.currentLevel);
     }
 
 
@@ -44,6 +52,7 @@ public class Game : MonoBehaviour
     {
         isPlaying = false;
         levelMan.StopGeneration();
+        gameOverPopup.Open();
     }
 
     public bool isPlaying = false;

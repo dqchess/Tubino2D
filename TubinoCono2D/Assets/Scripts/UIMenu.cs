@@ -68,4 +68,9 @@ public class UIMenu : MonoBehaviour
     {
 
     }
+
+    public void GoToLevelSelector()
+    {
+        ScreenMan.Me.GoToLevelSelector();
+    }
 }

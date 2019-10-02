@@ -5,11 +5,15 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
 
-    public bool isDie = false;
+   
+   public bool isDie = false;
    public void Initialize()
    {
         this.isDie = false;
+        this.GetComponent<Crush>().Initialize(this);
    }
+
+
 
     public void Die()
     {
@@ -22,7 +26,7 @@ public class Enemy : MonoBehaviour
         if (this.isDie)
             return;
 
-        if (this.transform.position.y > 2.18f)
+        if (this.transform.position.y < -7.3f)
         {
             //TrashMan.despawn(this.gameObject);
             this.GetComponent<DieEnemy>().OnPass();
