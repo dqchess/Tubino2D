@@ -14,7 +14,11 @@ public class ItemLevelSelector : MonoBehaviour
     public void Initialize(int idLevel)
     {
         lvl.text = "" + (idLevel + 1);
-        button.onClick.AddListener(OnClick);
+
+        if(!WorldMan.Me.leveldata[idLevel].isLock)
+            button.onClick.AddListener(OnClick);        
+
+
         for (int i = 0; i < stars.Count; i++)
         {
             if (i < WorldMan.Me.leveldata[idLevel].stars)

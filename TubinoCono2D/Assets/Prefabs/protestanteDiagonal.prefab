@@ -13,11 +13,11 @@ GameObject:
   - component: {fileID: 6229277258390867714}
   - component: {fileID: 1630965954324059804}
   - component: {fileID: 6229277258390867717}
-  - component: {fileID: 1437672514985614357}
   - component: {fileID: 5441632860322943605}
   - component: {fileID: 960972172451067699}
+  - component: {fileID: -4836092462066486314}
   m_Layer: 0
-  m_Name: protestante
+  m_Name: protestanteDiagonal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -146,19 +146,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.135, y: 1.7}
   m_EdgeRadius: 0
---- !u!114 &1437672514985614357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6229277258390867716}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc5fb6e12b9543849ad9a49c5673272f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -3
 --- !u!114 &5441632860322943605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,3 +172,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   protestante: {fileID: 1630965954324059804}
+--- !u!114 &-4836092462066486314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6229277258390867716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a496150adfbcf0459e0810ea8a893f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: -3
+  speedX: 2
+  factor: 1

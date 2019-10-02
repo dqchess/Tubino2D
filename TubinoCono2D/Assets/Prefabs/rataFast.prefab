@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 6229277258390867712}
   - component: {fileID: 6229277258390867715}
   - component: {fileID: 6229277258390867714}
-  - component: {fileID: 1630965954324059804}
+  - component: {fileID: 6229277258390867713}
   - component: {fileID: 6229277258390867717}
   - component: {fileID: 1437672514985614357}
+  - component: {fileID: -3329904606018528762}
   - component: {fileID: 5441632860322943605}
-  - component: {fileID: 960972172451067699}
   m_Layer: 0
-  m_Name: protestante
+  m_Name: rataFast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -3807745286636090654, guid: d1aa6f2e2e8f304418f9e099e946a921,
+  m_Sprite: {fileID: -8531236181299430916, guid: d1aa6f2e2e8f304418f9e099e946a921,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -97,7 +97,7 @@ Animator:
   m_GameObject: {fileID: 6229277258390867716}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1a7d97638f342814cbfafae6578a90b3, type: 2}
+  m_Controller: {fileID: 9100000, guid: c7052ed3870cbe547a608903bbaad26d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -106,7 +106,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1630965954324059804
+--- !u!114 &6229277258390867713
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -115,10 +115,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 6229277258390867716}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b08f9090babd9244397b7d6dec1c458c, type: 3}
+  m_Script: {fileID: 11500000, guid: cbfde19dd576d5e49b791ca6081757bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offsetY: 0
+  offsetY: 0.8
+  crush: {fileID: 0}
   isDie: 0
 --- !u!61 &6229277258390867717
 BoxCollider2D:
@@ -137,7 +138,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
-    oldSize: {x: 1.2628572, y: 1.8085715}
+    oldSize: {x: 0.98571426, y: 1.22}
     newSize: {x: 4.54, y: 6.8}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -158,7 +159,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc5fb6e12b9543849ad9a49c5673272f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -3
+  speed: -5
+--- !u!114 &-3329904606018528762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6229277258390867716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c174874fa576994b9e53ffeb01090a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 6229277258390867713}
 --- !u!114 &5441632860322943605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,16 +186,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   life: 1
---- !u!114 &960972172451067699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6229277258390867716}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8caebc273a47d844b624e4d3ce0200b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  protestante: {fileID: 1630965954324059804}

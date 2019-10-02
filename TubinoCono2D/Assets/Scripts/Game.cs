@@ -39,7 +39,7 @@ public class Game : MonoBehaviour
     public void StartNewGame()
     {
         isPlaying = true;
-        levelMan.StartGeneration(WorldMan.Me.currentLevel);
+        levelMan.StartGeneration(WorldMan.Me.currentLevel+1);
         score = ES3.Load<int>("money", 0);
         ui.scoreTxt.text = "" + score;
     }

@@ -57,13 +57,13 @@ public class LevelMan : MonoBehaviour
     public Level CreateLevel2()
     {
         List<Horda> lvl1 = new List<Horda>();
-        lvl1.Add(new Horda(new int[15] { 0, 0, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 }));
-        lvl1.Add(new Horda(new int[15] { 0, -1, -1, -1, 0, -1, -1, -1, 0, -1, -1, -1, -1, -1, -1 }));
-        lvl1.Add(new Horda(new int[15] { 0, -1, -1, -1, -1, -1, 3, -1, 0, -1, -1, -1, -1, -1, -1 }));
-        lvl1.Add(new Horda(new int[15] { 0, 0, -1, 0, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 }));
-        lvl1.Add(new Horda(new int[15] { 0, -1, 0, -1, -1, -1, 0, -1, 0, -1, -1, -1, -1, -1, -1 }));
         lvl1.Add(new Horda(new int[15] { 0, 0, 0, 0, 0, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1 }));
-        lvl1.Add(new Horda(new int[15] { 0, 3, 0, 0, 1, 0, 0, 0, 0, -1, -1, -1, -1, -1, -1 }));
+        lvl1.Add(new Horda(new int[15] { 4, 0, 0, -1, 0, -1, -1, -1, 0, -1, -1, 0, 0, -1, -1 }));
+        lvl1.Add(new Horda(new int[15] { 0, -1, -1, -1, -1, -1, 3, -1, 0, -1, -1, -1, -1, -1, -1 }));
+        lvl1.Add(new Horda(new int[15] { 3, 3, -1, 0, 0, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1 }));
+        lvl1.Add(new Horda(new int[15] { 0, 0, 0, -1, -1, 4, 0, -1, 0, -1, 0, -1, 0, 0, -1 }));
+        lvl1.Add(new Horda(new int[15] { 0, 0, 0, 0, 0, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1 }));
+        lvl1.Add(new Horda(new int[15] { 0, 3, 0, 0, 2, 0, 0, 0, 0, -1, -1, -1, -1, -1, -1 }));
         return new Level(lvl1);
     }
 
@@ -173,6 +173,7 @@ public class LevelMan : MonoBehaviour
 
     public void StartGeneration(int lvl)
     {
+        Debug.Log(lvl);
         switch (lvl)
         {
             case 1:

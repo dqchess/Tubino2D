@@ -10,6 +10,14 @@ public class UIGameScreen : MonoBehaviour
     public Text scoreTxt;
     public LevelClearPopup levelClearPopup;
     public GameOverPopup gameOverPopup;
+    public PausePopup pausePopup;
     public Camera mycamera;
     public Canvas canvas;
+
+    public void OnClickPause()
+    {
+        if(Game.Me.isPlaying)
+            pausePopup.Open();
+    }
+
 }

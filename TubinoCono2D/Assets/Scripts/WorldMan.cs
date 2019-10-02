@@ -6,6 +6,7 @@ public class LevelData
 {
     public int stars = 0;
     public bool iscomplete = false;
+    public bool isLock = true;
 }
 
 public class WorldMan : MonoBehaviour
@@ -25,10 +26,30 @@ public class WorldMan : MonoBehaviour
     public void SaveValues(int stars,  bool isComplete)
     {
         int realid = this.currentLevel - 1;
-        leveldata[realid].iscomplete = isComplete;
-        leveldata[realid].stars = stars;
-        ES3.Save<bool>("c" + realid, leveldata[realid].iscomplete);
-        ES3.Save<int>("s" + realid, leveldata[realid].stars);
+        
+
+        if (!leveldata[realid].iscomplete)
+        {
+            leveldata[realid].iscomplete = isComplete;
+            ES3.Save<bool>("c" + realid, leveldata[realid].iscomplete);
+
+            int unlock = realid + 1;
+            if(unlock < leveldata.Count)
+            {
+                Debug.Log("unloqueando " + unlock);
+                leveldata[unlock].isLock = false;
+                ES3.Save<bool>("l" + unlock, leveldata[unlock].isLock);
+            }
+            
+        }
+            
+
+        if (leveldata[realid].stars < stars)
+        {
+            leveldata[realid].stars = stars;
+            ES3.Save<int>("s" + realid, leveldata[realid].stars);
+        }
+            
     }
 
     private void Start()
@@ -44,6 +65,11 @@ public class WorldMan : MonoBehaviour
             LevelData ld = new LevelData();
             ld.iscomplete = ES3.Load<bool>("c" + i, false);
             ld.stars = ES3.Load<int>("s" + i, 0);
+            if(i==0)
+                ld.isLock = ES3.Load<bool>("l" + i, false);
+            else
+                ld.isLock = ES3.Load<bool>("l" + i, true);
+
             leveldata.Add(ld);
                 
         }

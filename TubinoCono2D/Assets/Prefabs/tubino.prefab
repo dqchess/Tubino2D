@@ -118,6 +118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offsetY: 1
+  crush: {fileID: 0}
   isDie: 0
 --- !u!61 &6229277258390867717
 BoxCollider2D:
@@ -157,7 +158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc5fb6e12b9543849ad9a49c5673272f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -5
+  speed: -3
 --- !u!114 &-3329904606018528762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,4 +184,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78241fba2db80e5409abbb399e25f8b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 1
+  life: 10
