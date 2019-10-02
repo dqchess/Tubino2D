@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
-<!-- $TexturePacker:SmartUpdate:d5c3df20306422e89f1d6f0471013f8c:235026450a31b9d8034cc5c9f77ae853:fd4a04ca3ae6018f572695223097d7b1$ -->
+<!-- $TexturePacker:SmartUpdate:63fb465feaf6cbe02706297518dddb13:235026450a31b9d8034cc5c9f77ae853:fd4a04ca3ae6018f572695223097d7b1$ -->
 <TextureAtlas imagePath="characters.png" width="1786" height="2033">
     <SubTexture name="Becerril1" x="1" y="1415" width="454" height="617" frameX="-9" frameY="-86" frameWidth="474" frameHeight="728"/>
     <SubTexture name="Becerril2" x="913" y="1365" width="435" height="641" frameX="-16" frameY="-86" frameWidth="474" frameHeight="728"/>

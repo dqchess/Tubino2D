@@ -4,15 +4,30 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public bool isDie = false;
+   public void Initialize()
+   {
+        this.isDie = false;
+   }
+
+    public void Die()
     {
-        
+        this.isDie = true;
     }
 
-    // Update is called once per frame
-    void Update()
+
+    private void Update()
     {
-        
+        if (this.isDie)
+            return;
+
+        if (this.transform.position.y > 2.18f)
+        {
+            //TrashMan.despawn(this.gameObject);
+            this.GetComponent<DieEnemy>().OnPass();
+            
+        }
     }
+
 }
