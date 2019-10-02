@@ -40,6 +40,8 @@ public class Game : MonoBehaviour
     private void Start()
     {
         StartNewGame();
+
+        ui.CanvasScaler();
     }
 
     
