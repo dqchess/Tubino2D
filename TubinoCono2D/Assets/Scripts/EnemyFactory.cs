@@ -9,11 +9,14 @@ public class EnemyFactory: Factory
     int tempoFamilyId = -1;
     int acumFamily = 0;
     int limitFamily = 0;
-    List<Enemy> cHorda = new List<Enemy>(); 
+    List<Enemy> cHorda = new List<Enemy>();
+    List<Protestante> cPulptines = new List<Protestante>();
 
     public EnemyFactory(LevelMan _levelGenerator, GameWeights _gameWeights):base(_levelGenerator, _gameWeights)
     {
         cHorda = new List<Enemy>();
+        cPulptines = new List<Protestante>();
+
 
     }
 
@@ -40,19 +43,33 @@ public class EnemyFactory: Factory
     public Vector3 initialpos = new Vector3(-2,6,0);
     public List<Vector3> offsets = new List<Vector3>() { 
         new Vector3(0,0,0) ,
+        new Vector3(1,0,0) ,
         new Vector3(2,0,0) ,
+        new Vector3(3,0,0) ,
         new Vector3(4,0,0) ,
+
         new Vector3(0,2,0) ,
+        new Vector3(1,2,0) ,
         new Vector3(2,2,0) ,
+        new Vector3(3,2,0) ,
         new Vector3(4,2,0) ,
+
         new Vector3(0,4,0) ,
+        new Vector3(1,4,0) ,
         new Vector3(2,4,0) ,
+        new Vector3(3,4,0) ,
         new Vector3(4,4,0) ,
+
         new Vector3(0,6,0) ,
+        new Vector3(1,6,0) ,
         new Vector3(2,6,0) ,
+        new Vector3(3,6,0) ,
         new Vector3(4,6,0) ,
+
         new Vector3(0,8,0) ,
+        new Vector3(1,8,0) ,
         new Vector3(2,8,0) ,
+        new Vector3(3,8,0) ,
         new Vector3(4,8,0)
     };
 
@@ -76,6 +93,7 @@ public class EnemyFactory: Factory
         }
 
 
+        cPulptines.Clear();
         cHorda.Clear();
         for (int i = 0; i < level.hordas[currentHorda].patterns.Length; i++)
         {
@@ -87,6 +105,7 @@ public class EnemyFactory: Factory
                     Protestante e = protestante.GetComponent<Protestante>();
                     e.GetComponent<Protestante>().Initialize();
                     protestante.transform.position = initialpos + offsets[i];
+                    cPulptines.Add(e);
                 }
                 else
                 {
@@ -125,17 +144,50 @@ public class EnemyFactory: Factory
     public void ReportDie(Enemy enemy)
     {
         enemy.isDie = true;
-        bool endHorda = true;
+        bool endHorda = CheckEnemies();
+        bool endPulpines = CheckPulpines();
+        
 
+        if (endHorda && endPulpines)
+            NextHorda();
+    }
+
+    public void ReportDie(Protestante protestante)
+    {
+        protestante.isDie = true;
+        bool endHorda = CheckEnemies();
+        bool endPulpines = CheckPulpines();
+
+
+        if (endHorda && endPulpines)
+            NextHorda();
+    }
+
+
+    bool CheckEnemies()
+    {
+        bool endHorda = true;
         for (int i = 0; i < cHorda.Count; i++)
         {
             endHorda = cHorda[i].isDie;
             if (!endHorda)
                 break;
         }
+        return endHorda;
 
-        if (endHorda)
-            NextHorda();
+    }
+
+    bool CheckPulpines()
+    {
+        bool endPulpines = true;
+        for (int i = 0; i < cPulptines.Count; i++)
+        {
+            endPulpines = cPulptines[i].isDie;
+            if (!endPulpines)
+                break;
+        }
+
+        return endPulpines;
     }
 
     public int countHorda = 0;

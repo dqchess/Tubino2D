@@ -35,6 +35,24 @@ TextureImporter:
   - first:
       213: -5251226025326251629
     second: billete
+  - first:
+      213: -7101501463664944015
+    second: corazon
+  - first:
+      213: 1906716828696229935
+    second: keiko
+  - first:
+      213: -2035523714702082763
+    second: meche
+  - first:
+      213: 1763838762712097198
+    second: montesinos
+  - first:
+      213: 1198280834286609715
+    second: mulder
+  - first:
+      213: -4724483606407715864
+    second: rosa bartra
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -135,7 +153,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 603
+        y: 23
         width: 364
         height: 420
       alignment: 0
@@ -155,8 +173,8 @@ TextureImporter:
       name: billete
       rect:
         serializedVersion: 2
-        x: 367
-        y: 669
+        x: 644
+        y: 173
         width: 187
         height: 165
       alignment: 0
@@ -173,11 +191,116 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: corazon
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 931
+        width: 175
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -7101501463664944015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keiko
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1565
+        width: 456
+        height: 482
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 1906716828696229935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meche
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 871
+        width: 446
+        height: 484
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -2035523714702082763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: montesinos
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 626
+        width: 394
+        height: 458
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 1763838762712097198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mulder
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 367
+        height: 424
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 1198280834286609715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: rataconpatasbrazo1
       rect:
         serializedVersion: 2
-        x: 697
-        y: 897
+        x: 673
+        y: 498
         width: 103
         height: 126
       alignment: 0
@@ -197,8 +320,8 @@ TextureImporter:
       name: rataconpatasbrazo2
       rect:
         serializedVersion: 2
-        x: 802
-        y: 916
+        x: 673
+        y: 389
         width: 99
         height: 107
       alignment: 0
@@ -218,8 +341,8 @@ TextureImporter:
       name: rataconpatascabeza1
       rect:
         serializedVersion: 2
-        x: 1
-        y: 8
+        x: 778
+        y: 340
         width: 187
         height: 242
       alignment: 0
@@ -239,8 +362,8 @@ TextureImporter:
       name: rataconpatascabeza2
       rect:
         serializedVersion: 2
-        x: 190
-        y: 13
+        x: 370
+        y: 387
         width: 301
         height: 237
       alignment: 0
@@ -260,10 +383,10 @@ TextureImporter:
       name: rataconpatascabeza3
       rect:
         serializedVersion: 2
-        x: 274
-        y: 322
-        width: 178
-        height: 279
+        x: 367
+        y: 94
+        width: 275
+        height: 244
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,8 +404,8 @@ TextureImporter:
       name: rataconpatascuerpo1
       rect:
         serializedVersion: 2
-        x: 367
-        y: 836
+        x: 845
+        y: 584
         width: 160
         height: 187
       alignment: 0
@@ -302,8 +425,8 @@ TextureImporter:
       name: rataconpatascuerpo2
       rect:
         serializedVersion: 2
-        x: 529
-        y: 867
+        x: 845
+        y: 773
         width: 166
         height: 156
       alignment: 0
@@ -323,8 +446,8 @@ TextureImporter:
       name: rataconpataspie
       rect:
         serializedVersion: 2
-        x: 274
-        y: 259
+        x: 449
+        y: 1294
         width: 78
         height: 61
       alignment: 0
@@ -341,13 +464,34 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: rosa bartra
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1086
+        width: 455
+        height: 477
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -4724483606407715864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: tubinocabeza
       rect:
         serializedVersion: 2
         x: 1
-        y: 252
-        width: 271
-        height: 349
+        y: 1357
+        width: 546
+        height: 690
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

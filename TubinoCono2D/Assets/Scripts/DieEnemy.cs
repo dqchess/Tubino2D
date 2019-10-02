@@ -19,8 +19,7 @@ public class DieEnemy : MonoBehaviour, IDie
             moneyfly.Fly();*/
 
             TrashMan.despawn(this.gameObject);
-            Game.Me.OnEnemyDie(this.enemy);
-
+            Game.Me.OnEnemyDie(this.enemy); 
             
         }
         

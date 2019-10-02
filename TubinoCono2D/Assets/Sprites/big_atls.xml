@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
-<!-- $TexturePacker:SmartUpdate:09645af0ed8f544aa458db7f102dad2a:ebdd3c2d1beb2ec434fbcc18fdfe6398:40e977a1c6e58292241cc15516f759d7$ -->
-<TextureAtlas imagePath="big_atls.png" width="1024" height="1024">
-    <SubTexture name="Becerrilcabeza" x="1" y="1" width="364" height="420" frameX="-87" frameY="0" frameWidth="474" frameHeight="420"/>
-    <SubTexture name="billete" x="367" y="190" width="187" height="165" frameX="-7" frameY="-21" frameWidth="200" frameHeight="200"/>
-    <SubTexture name="rataconpatasbrazo1" x="697" y="1" width="103" height="126"/>
-    <SubTexture name="rataconpatasbrazo2" x="802" y="1" width="99" height="107"/>
-    <SubTexture name="rataconpatascabeza1" x="1" y="774" width="187" height="242" frameX="-8" frameY="0" frameWidth="202" frameHeight="252"/>
-    <SubTexture name="rataconpatascabeza2" x="190" y="774" width="301" height="237"/>
-    <SubTexture name="rataconpatascabeza3" x="274" y="423" width="178" height="279"/>
-    <SubTexture name="rataconpatascuerpo1" x="367" y="1" width="160" height="187" frameX="0" frameY="0" frameWidth="164" frameHeight="187"/>
-    <SubTexture name="rataconpatascuerpo2" x="529" y="1" width="166" height="156"/>
-    <SubTexture name="rataconpataspie" x="274" y="704" width="78" height="61"/>
-    <SubTexture name="tubinocabeza" x="1" y="423" width="271" height="349" frameX="-58" frameY="-11" frameWidth="358" frameHeight="366"/>
+<!-- $TexturePacker:SmartUpdate:b2ef698e08bbdd5829e2cfeea4f42d26:a77532e9efbbeee4225160cfa164500c:40e977a1c6e58292241cc15516f759d7$ -->
+<TextureAtlas imagePath="big_atls.png" width="1024" height="2048">
+    <SubTexture name="Becerrilcabeza" x="1" y="1605" width="364" height="420" frameX="-87" frameY="0" frameWidth="474" frameHeight="420"/>
+    <SubTexture name="billete" x="644" y="1710" width="187" height="165" frameX="-7" frameY="-21" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="corazon" x="845" y="964" width="175" height="153" frameX="-14" frameY="-27" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="keiko" x="549" y="1" width="456" height="482" frameX="-12" frameY="-11" frameWidth="500" frameHeight="500"/>
+    <SubTexture name="meche" x="1" y="693" width="446" height="484" frameX="-24" frameY="-12" frameWidth="500" frameHeight="500"/>
+    <SubTexture name="montesinos" x="449" y="964" width="394" height="458" frameX="-43" frameY="-14" frameWidth="500" frameHeight="500"/>
+    <SubTexture name="mulder" x="1" y="1179" width="367" height="424" frameX="-53" frameY="-16" frameWidth="500" frameHeight="500"/>
+    <SubTexture name="rataconpatasbrazo1" x="673" y="1424" width="103" height="126"/>
+    <SubTexture name="rataconpatasbrazo2" x="673" y="1552" width="99" height="107"/>
+    <SubTexture name="rataconpatascabeza1" x="778" y="1466" width="187" height="242" frameX="-8" frameY="0" frameWidth="202" frameHeight="252"/>
+    <SubTexture name="rataconpatascabeza2" x="370" y="1424" width="301" height="237"/>
+    <SubTexture name="rataconpatascabeza3" x="367" y="1710" width="275" height="244"/>
+    <SubTexture name="rataconpatascuerpo1" x="845" y="1277" width="160" height="187" frameX="0" frameY="0" frameWidth="164" frameHeight="187"/>
+    <SubTexture name="rataconpatascuerpo2" x="845" y="1119" width="166" height="156"/>
+    <SubTexture name="rataconpataspie" x="449" y="693" width="78" height="61"/>
+    <SubTexture name="rosa bartra" x="549" y="485" width="455" height="477" frameX="-6" frameY="-16" frameWidth="500" frameHeight="500"/>
+    <SubTexture name="tubinocabeza" x="1" y="1" width="546" height="690" frameX="-114" frameY="-23" frameWidth="716" frameHeight="731"/>
 </TextureAtlas>

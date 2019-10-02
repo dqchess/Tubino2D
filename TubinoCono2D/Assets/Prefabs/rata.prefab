@@ -574,6 +574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   life: 1
+  showParticles: 1
 --- !u!114 &6502213584239150698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -589,6 +590,11 @@ MonoBehaviour:
   offsetY: 0.8
   crush: {fileID: 0}
   isDie: 0
+  sprites:
+  - {fileID: 1790158555977687757, guid: c6556719e379e8545bd7f5459cd42d53, type: 3}
+  - {fileID: -8725760476982685846, guid: c6556719e379e8545bd7f5459cd42d53, type: 3}
+  - {fileID: 2222725567971601366, guid: c6556719e379e8545bd7f5459cd42d53, type: 3}
+  head: {fileID: 9010940854617862690}
 --- !u!50 &8182451648839172494
 Rigidbody2D:
   serializedVersion: 4

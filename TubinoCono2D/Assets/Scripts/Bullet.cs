@@ -54,22 +54,22 @@ public class Bullet : MonoBehaviour
         TrashMan.despawn(this.gameObject);
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        Debug.Log("enemy");
-        if (collision.collider.CompareTag("Enemy"))
-        {
+   
+        
             
-            collision.collider.GetComponent<DieEnemy>().OnDie(); ;
+        
+    
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Enemy"))
+        {
+            collision.GetComponent<DieEnemy>().OnDie();
+
+            ParticleSystem cono = TrashMan.spawn("moneyPa", this.transform.position + Vector3.up * 0.5f).GetComponent<ParticleSystem>();
+            cono.Play();
         }
+        
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("enemy");
-        if (other.CompareTag("Enemy"))
-        {
-            other.GetComponent<DieEnemy>().OnDie(); ;
-        }
-    }
 }

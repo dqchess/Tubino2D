@@ -25,6 +25,7 @@ public class DieProtestante : MonoBehaviour, IDie
         {
             protestante.isDie = true;
             TrashMan.despawn(this.gameObject);
+            Game.Me.OnProtestantePass(protestante);
         }
     }
 }

@@ -27,7 +27,7 @@ public class Game : MonoBehaviour
         if (lifes > 0)
         {
             ES3.Save<int>("money", score);
-            ui.levelClearPopup.Open();
+            ui.ShowLevelClear();
             WorldMan.Me.SaveValues(lifes, true);
         }
         else
@@ -46,9 +46,10 @@ public class Game : MonoBehaviour
     public void StartNewGame()
     {
         isPlaying = true;
-        levelMan.StartGeneration(WorldMan.Me.currentLevel+1);
+      
+        levelMan.StartGeneration(WorldMan.Me.currentLevel);
         score = ES3.Load<int>("money", 0);
-        ui.scoreTxt.text = "" + score;
+        ui.SetScore(score);
     }
 
 
@@ -56,8 +57,13 @@ public class Game : MonoBehaviour
     {
         levelMan.enemyFactory.ReportDie(enemy);
         this.score++;
-        this.ui.scoreTxt.text = "" + score;
+        this.ui.SetScore(score);
             
+    }
+
+    public void OnProtestantePass(Protestante protestante) 
+    {
+        levelMan.enemyFactory.ReportDie(protestante);
     }
 
     public void OnGameOver()
@@ -80,7 +86,7 @@ public class Game : MonoBehaviour
         if (!isPlaying)
             return;
 
-        levelMan.enemyFactory.ReportDie(enemy);
+        
 
         lifes-=enemy.crush.life;
         if (lifes <= 0)
@@ -90,6 +96,8 @@ public class Game : MonoBehaviour
         }
 
         ui.hearts.UpdateLives(lifes);
+
+        levelMan.enemyFactory.ReportDie(enemy);
 
 
 

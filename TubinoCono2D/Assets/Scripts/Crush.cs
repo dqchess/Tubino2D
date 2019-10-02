@@ -20,7 +20,7 @@ public class Crush : MonoBehaviour
 
         if (showParticles)
         {
-            ParticleSystem cono = TrashMan.spawn("moneyPa", this.transform.position+Vector3.up*2).GetComponent<ParticleSystem>();
+            ParticleSystem cono = TrashMan.spawn("moneyPa", this.transform.position+Vector3.up*0.5f).GetComponent<ParticleSystem>();
             cono.Play();
         }
         

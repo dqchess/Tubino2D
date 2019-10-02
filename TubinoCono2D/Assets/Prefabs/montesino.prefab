@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5441632860322943605}
   - component: {fileID: 4038633070941999344}
   m_Layer: 0
-  m_Name: tubino
+  m_Name: montesino
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -210,12 +210,12 @@ PrefabInstance:
     - target: {fileID: 8403644118618754332, guid: bd1176eb6bd02524eae4e548fdc10c8c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.915
+      value: 0.85
       objectReference: {fileID: 0}
     - target: {fileID: 8403644118618754332, guid: bd1176eb6bd02524eae4e548fdc10c8c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.045
+      value: 0.041
       objectReference: {fileID: 0}
     - target: {fileID: 8403644118618754332, guid: bd1176eb6bd02524eae4e548fdc10c8c,
         type: 3}
@@ -235,23 +235,23 @@ PrefabInstance:
     - target: {fileID: 8403644118618754332, guid: bd1176eb6bd02524eae4e548fdc10c8c,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.6432522
+      value: 0.88762367
       objectReference: {fileID: 0}
     - target: {fileID: 8403644118618754332, guid: bd1176eb6bd02524eae4e548fdc10c8c,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.6432522
+      value: 0.88762367
       objectReference: {fileID: 0}
     - target: {fileID: 8403644118618754332, guid: bd1176eb6bd02524eae4e548fdc10c8c,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.6432522
+      value: 0.88762367
       objectReference: {fileID: 0}
     - target: {fileID: 7035965199877826421, guid: bd1176eb6bd02524eae4e548fdc10c8c,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -4650561469437512643, guid: c6556719e379e8545bd7f5459cd42d53,
+      objectReference: {fileID: 1763838762712097198, guid: c6556719e379e8545bd7f5459cd42d53,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd1176eb6bd02524eae4e548fdc10c8c, type: 3}
