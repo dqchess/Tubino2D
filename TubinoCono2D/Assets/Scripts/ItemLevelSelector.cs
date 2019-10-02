@@ -11,8 +11,10 @@ public class ItemLevelSelector : MonoBehaviour
     public Text lvl;
     public Button button;
     int idLevel;
-    public void Initialize(int _idLevel)
+    public UILevelSelector uILevelSelector;
+    public void Initialize(int _idLevel, UILevelSelector _uILevelSelector)
     {
+        this.uILevelSelector = _uILevelSelector;
         this.idLevel = _idLevel;
 
         lvl.text = "" + (idLevel + 1);
@@ -37,6 +39,7 @@ public class ItemLevelSelector : MonoBehaviour
     public void OnClick()
     {
         WorldMan.Me.SetCurrentLevel(idLevel+1);
-        ScreenMan.Me.GotoGame();
+        this.uILevelSelector.GoToLevelSelector(true);
+        // ScreenMan.Me.GotoGame();
     }
 }

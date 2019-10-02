@@ -8,6 +8,7 @@ public enum AnimationState { StartAnimationTitle, EndAnimationTitle, StartAnimat
 
 public class UIMenu : MonoBehaviour
 {
+    public RectTransform menuParent;
     public RectTransform titleMenu;
     public RectTransform buttonMenu;
     public RectTransform optionsPanel;
@@ -72,11 +73,13 @@ public class UIMenu : MonoBehaviour
     public void ShowOptionPanel()
     {
         optionsPanel.DOAnchorPosX(0, 0.25f, true);
+        menuParent.DOAnchorPosX(-canvasScaler.referenceResolution.x, 0.25f, true);
     }
 
     public void hiddenOptionPanel()
     {
         optionsPanel.DOAnchorPosX(canvasScaler.referenceResolution.x, 0.25f, true);
+        menuParent.DOAnchorPosX(0, 0.25f, true);
     }
 
     private void StartPosition()
@@ -84,6 +87,22 @@ public class UIMenu : MonoBehaviour
         titleMenu.anchoredPosition = new Vector2(0f, 750f);
         buttonMenu.anchoredPosition = new Vector2(0f, -750f);
         optionsPanel.anchoredPosition = new Vector2(canvasScaler.referenceResolution.x, 0);
+    }
+
+    private void GoToLevelSelector()
+    {
+        ScreenMan.Me.GoToLevelSelector();
+    }
+
+    private void GoToCanaFronton()
+    {
+        ScreenMan.Me.GotoCanada();
+    }
+
+    public void ChangeScene(bool method)
+    {
+        exitMenu = true;
+        methodSelection = method;
     }
 
     public void SelectorMethod(bool method)
@@ -96,21 +115,5 @@ public class UIMenu : MonoBehaviour
         {
             GoToCanaFronton();
         }
-    }
-
-    public void ChangeScene(bool method)
-    {
-        exitMenu = true;
-        methodSelection = method;
-    }
-
-    public void GoToLevelSelector()
-    {
-        ScreenMan.Me.GoToLevelSelector();
-    }
-
-    public void GoToCanaFronton()
-    {
-        ScreenMan.Me.GotoCanada();
     }
 }
