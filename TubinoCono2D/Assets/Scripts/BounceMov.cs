@@ -9,6 +9,7 @@ public class BounceMov : MonoBehaviour
     public int factor = 1;
 
     public Rigidbody2D rb;
+    public GameObject body;
 
 
     private void FixedUpdate()
@@ -23,7 +24,7 @@ public class BounceMov : MonoBehaviour
             factor = -1;
             Vector3 s = this.transform.localScale;
             s.x = -1;
-            this.transform.localScale = s;
+            this.body.transform.localScale = s;
 
 
         }else if (this.rb.position.x < -2f && factor == -1)
@@ -31,7 +32,7 @@ public class BounceMov : MonoBehaviour
             factor = 1;
             Vector3 s = this.transform.localScale;
             s.x = 1;
-            this.transform.localScale = s;
+            this.body.transform.localScale = s;
         }
 
 

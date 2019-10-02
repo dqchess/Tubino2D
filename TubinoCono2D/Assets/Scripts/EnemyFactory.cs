@@ -99,7 +99,7 @@ public class EnemyFactory: Factory
         {
             if (level.hordas[currentHorda].patterns[i] >= 0)
             {
-                if(level.hordas[currentHorda].patterns[i] == 3)
+                if(level.hordas[currentHorda].patterns[i] == 3 || level.hordas[currentHorda].patterns[i] == 5)
                 {
                     GameObject protestante = TrashMan.spawn(gameWeights.enemy[level.hordas[currentHorda].patterns[i]].name);
                     Protestante e = protestante.GetComponent<Protestante>();
