@@ -9,11 +9,15 @@ public enum AnimationState { StartAnimationTitle, EndAnimationTitle, StartAnimat
 public class UIMenu : MonoBehaviour
 {
     public RectTransform titleMenu;
-    public RectTransform ButtonMenu;
+    public RectTransform buttonMenu;
+    public RectTransform optionsPanel;
+    CanvasScaler canvasScaler;
     AnimationState state;
 
     void Start()
     {
+        canvasScaler = GetComponent<CanvasScaler>();
+
         StartPosition();
         titleMenu.DOAnchorPosY(0f, 0.25f, true);
         state = AnimationState.StartAnimationTitle;
@@ -30,23 +34,34 @@ public class UIMenu : MonoBehaviour
                 }
             break;
             case AnimationState.EndAnimationTitle:
-                ButtonMenu.DOAnchorPosY(0f, 0.25f, true);
+                buttonMenu.DOAnchorPosY(0f, 0.25f, true);
                 state = AnimationState.StartAnimationButton;
             break;
             case AnimationState.StartAnimationButton:
-                if (ButtonMenu.anchoredPosition.y == 0)
+                if (buttonMenu.anchoredPosition.y == 0)
                 {
-                    ButtonMenu.DOShakeAnchorPos(0.25f, 25f, 75, 360);
+                    buttonMenu.DOShakeAnchorPos(0.25f, 25f, 75, 360);
                     state = AnimationState.EndAnimationButton;
                 }
             break;
         }
     }
 
+    public void ShowOptionPanel()
+    {
+        optionsPanel.DOAnchorPosX(0, 0.25f, true);
+    }
+
+    public void hiddenOptionPanel()
+    {
+        optionsPanel.DOAnchorPosX(canvasScaler.referenceResolution.x, 0.25f, true);
+    }
+
     private void StartPosition()
     {
         titleMenu.anchoredPosition = new Vector2(0f, 650f);
-        ButtonMenu.anchoredPosition = new Vector2(0f, -650f);
+        buttonMenu.anchoredPosition = new Vector2(0f, -650f);
+        optionsPanel.anchoredPosition = new Vector2(canvasScaler.referenceResolution.x, 0);
     }
 
     public void ChangeScene(string scene)
