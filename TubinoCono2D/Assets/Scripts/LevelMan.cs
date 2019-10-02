@@ -142,7 +142,7 @@ public class LevelMan : MonoBehaviour
         {
             -1, 0, 0, 0, -1,
             -1, 3, 3, 3, -1,
-            -1, 3, 1, 3, -1,
+            -1, 3, 7, 3, -1,
             -1, 3, 3, 3, -1,
             0, -1, -1, -1, 0
         }));
@@ -150,7 +150,62 @@ public class LevelMan : MonoBehaviour
         return new Level(lvl1);
     }
 
-    public Level CreateLevel3()
+    public Level CreateLevel3()//9
+    {
+        List<Horda> lvl1 = new List<Horda>();
+        lvl1.Add(new Horda(new int[25]
+        {
+            -1, 6, -1, 6, -1,
+            -1, -1, 0, -1, -1,
+            -1, 6, 0, 6, -1,
+            -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1
+        }));
+        lvl1.Add(new Horda(new int[25]
+        {
+            -1, 0, -1, 0, -1,
+            0, -1, 0, -1, 0,
+            -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1
+        }));
+        lvl1.Add(new Horda(new int[25]
+        {
+            -1, 14, -1, 13, -1,
+            3, -1, -1, -1, 3,
+            -1, 14, -1, 13, -1,
+            3, -1, -1, -1, 3,
+            -1, 14, -1, 13, -1
+        }));
+        lvl1.Add(new Horda(new int[25]
+        {
+            -1, -1, -1, -1, -1,
+            6, -1, -1, -1, 6,
+            -1, 6, -1, 6, -1,
+            6, -1, -1, -1, 6,
+            5, -1, -1, -1, 5
+        }));
+        lvl1.Add(new Horda(new int[25]
+        {
+            -1, -1, -1, -1, -1,
+            4, -1, 0, -1, 4,
+            -1, -1, 0, -1, -1,
+            4, -1, 0, -1, 4,
+            -1, -1, 0, -1, -1
+        }));
+        lvl1.Add(new Horda(new int[25]
+        {
+            -1, 12, 12, 12, -1,
+            -1, 0, -1, 0, -1,
+            -1, -1, 9, -1, -1,
+            -1, -1, -1, -1, -1,
+            -1, 12, 0, 12, -1
+        }));
+
+        return new Level(lvl1);
+    }
+
+    public Level CreateLevel4()//10
     {
         List<Horda> lvl1 = new List<Horda>();
         lvl1.Add(new Horda(new int[25]
@@ -205,7 +260,7 @@ public class LevelMan : MonoBehaviour
         return new Level(lvl1);
     }
 
-    public Level CreateLevel4()
+    public Level CreateLevel5()//11
     {
         List<Horda> lvl1 = new List<Horda>();
         lvl1.Add(new Horda(new int[25]
@@ -260,7 +315,7 @@ public class LevelMan : MonoBehaviour
         return new Level(lvl1);
     }
 
-    public Level CreateLevel5()
+    public Level CreateLevel6()//1
     {
         List<Horda> lvl1 = new List<Horda>();
         lvl1.Add(new Horda(new int[25]
@@ -315,62 +370,7 @@ public class LevelMan : MonoBehaviour
         return new Level(lvl1);
     }
 
-    public Level CreateLevel6()
-    {
-        List<Horda> lvl1 = new List<Horda>();
-        lvl1.Add(new Horda(new int[25]
-        {
-            0, -1, 0, -1, 0,
-            0, -1, 0, -1, 0,
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1
-        }));
-        lvl1.Add(new Horda(new int[25]
-        {
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1
-        }));
-        lvl1.Add(new Horda(new int[25]
-        {
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1
-        }));
-        lvl1.Add(new Horda(new int[25]
-        {
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1
-        }));
-        lvl1.Add(new Horda(new int[25]
-        {
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1
-        }));
-        lvl1.Add(new Horda(new int[25]
-        {
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1
-        }));
-
-        return new Level(lvl1);
-    }
-
-    public Level CreateLevel7()
+    public Level CreateLevel7()//8
     {
         List<Horda> lvl1 = new List<Horda>();
         lvl1.Add(new Horda(new int[25]

@@ -53,6 +53,48 @@ TextureImporter:
   - first:
       213: -4724483606407715864
     second: rosa bartra
+  - first:
+      213: -3807745286636090654
+    second: chico pancarta1
+  - first:
+      213: -8678522834502579558
+    second: chico pancarta2
+  - first:
+      213: 2484124929251307130
+    second: chico pancarta3
+  - first:
+      213: 2658128065159657093
+    second: chico pancarta4
+  - first:
+      213: 73560055621594299
+    second: policia1
+  - first:
+      213: 9210081998933139634
+    second: policia2
+  - first:
+      213: 8838195398163799918
+    second: policia3
+  - first:
+      213: 6783497411064573529
+    second: policia4
+  - first:
+      213: 7611331527751563848
+    second: policia5
+  - first:
+      213: -1532891106632574461
+    second: del solar
+  - first:
+      213: 3045051373826652497
+    second: galarreta
+  - first:
+      213: -2301386111698561496
+    second: luz salgado
+  - first:
+      213: -5242552954649033691
+    second: mamani
+  - first:
+      213: 5816934626325091965
+    second: cono
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -152,8 +194,8 @@ TextureImporter:
       name: Becerrilcabeza
       rect:
         serializedVersion: 2
-        x: 1
-        y: 23
+        x: 1032
+        y: 81
         width: 364
         height: 420
       alignment: 0
@@ -173,8 +215,8 @@ TextureImporter:
       name: billete
       rect:
         serializedVersion: 2
-        x: 644
-        y: 173
+        x: 1683
+        y: 1638
         width: 187
         height: 165
       alignment: 0
@@ -191,11 +233,116 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: chico pancarta1
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1671
+        width: 159
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -3807745286636090654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chico pancarta2
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 2
+        width: 257
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -8678522834502579558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chico pancarta3
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 370
+        width: 105
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 2484124929251307130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chico pancarta4
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 535
+        width: 309
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 2658128065159657093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 948
+        width: 208
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 5816934626325091965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: corazon
       rect:
         serializedVersion: 2
-        x: 845
-        y: 931
+        x: 1505
+        y: 290
         width: 175
         height: 153
       alignment: 0
@@ -212,11 +359,53 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: del solar
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1150
+        width: 328
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -1532891106632574461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galarreta
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1235
+        width: 675
+        height: 812
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 3045051373826652497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: keiko
       rect:
         serializedVersion: 2
-        x: 549
-        y: 1565
+        x: 678
+        y: 873
         width: 456
         height: 482
       alignment: 0
@@ -233,10 +422,52 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: meche
+      name: luz salgado
       rect:
         serializedVersion: 2
         x: 1
+        y: 744
+        width: 420
+        height: 489
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -2301386111698561496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamani
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 402
+        width: 385
+        height: 469
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -5242552954649033691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meche
+      rect:
+        serializedVersion: 2
+        x: 1136
         y: 871
         width: 446
         height: 484
@@ -257,8 +488,8 @@ TextureImporter:
       name: montesinos
       rect:
         serializedVersion: 2
-        x: 449
-        y: 626
+        x: 1
+        y: 284
         width: 394
         height: 458
       alignment: 0
@@ -278,7 +509,7 @@ TextureImporter:
       name: mulder
       rect:
         serializedVersion: 2
-        x: 1
+        x: 1512
         y: 445
         width: 367
         height: 424
@@ -296,11 +527,116 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: policia1
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 263
+        width: 220
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 73560055621594299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: policia2
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 503
+        width: 389
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 9210081998933139634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: policia3
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 60
+        width: 374
+        height: 340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 8838195398163799918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: policia4
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 1409
+        width: 209
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 6783497411064573529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: policia5
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 1424
+        width: 103
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 7611331527751563848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: rataconpatasbrazo1
       rect:
         serializedVersion: 2
-        x: 673
-        y: 498
+        x: 1398
+        y: 242
         width: 103
         height: 126
       alignment: 0
@@ -320,10 +656,10 @@ TextureImporter:
       name: rataconpatasbrazo2
       rect:
         serializedVersion: 2
-        x: 673
-        y: 389
-        width: 99
-        height: 107
+        x: 1682
+        y: 317
+        width: 103
+        height: 126
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,8 +677,8 @@ TextureImporter:
       name: rataconpatascabeza1
       rect:
         serializedVersion: 2
-        x: 778
-        y: 340
+        x: 1683
+        y: 1805
         width: 187
         height: 242
       alignment: 0
@@ -362,8 +698,8 @@ TextureImporter:
       name: rataconpatascabeza2
       rect:
         serializedVersion: 2
-        x: 370
-        y: 387
+        x: 1
+        y: 45
         width: 301
         height: 237
       alignment: 0
@@ -383,8 +719,8 @@ TextureImporter:
       name: rataconpatascabeza3
       rect:
         serializedVersion: 2
-        x: 367
-        y: 94
+        x: 1584
+        y: 904
         width: 275
         height: 244
       alignment: 0
@@ -404,8 +740,8 @@ TextureImporter:
       name: rataconpatascuerpo1
       rect:
         serializedVersion: 2
-        x: 845
-        y: 584
+        x: 1861
+        y: 961
         width: 160
         height: 187
       alignment: 0
@@ -425,10 +761,10 @@ TextureImporter:
       name: rataconpatascuerpo2
       rect:
         serializedVersion: 2
-        x: 845
-        y: 773
-        width: 166
-        height: 156
+        x: 1872
+        y: 1860
+        width: 160
+        height: 187
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,8 +782,8 @@ TextureImporter:
       name: rataconpataspie
       rect:
         serializedVersion: 2
-        x: 449
-        y: 1294
+        x: 423
+        y: 885
         width: 78
         height: 61
       alignment: 0
@@ -467,8 +803,8 @@ TextureImporter:
       name: rosa bartra
       rect:
         serializedVersion: 2
-        x: 549
-        y: 1086
+        x: 1226
+        y: 1570
         width: 455
         height: 477
       alignment: 0
@@ -488,7 +824,7 @@ TextureImporter:
       name: tubinocabeza
       rect:
         serializedVersion: 2
-        x: 1
+        x: 678
         y: 1357
         width: 546
         height: 690

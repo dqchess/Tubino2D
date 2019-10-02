@@ -106,6 +106,7 @@ MonoBehaviour:
   speedX: 2
   factor: 1
   rb: {fileID: 368560802551215981}
+  body: {fileID: 2398594692358209868}
 --- !u!50 &368560802551215981
 Rigidbody2D:
   serializedVersion: 4
@@ -211,6 +212,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd1176eb6bd02524eae4e548fdc10c8c, type: 3}
+--- !u!1 &2398594692358209868 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7304756152366115306, guid: bd1176eb6bd02524eae4e548fdc10c8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 4906161820987271334}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2398594692358209869 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7304756152366115307, guid: bd1176eb6bd02524eae4e548fdc10c8c,

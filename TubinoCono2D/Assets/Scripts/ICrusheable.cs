@@ -7,4 +7,11 @@ public abstract class ICrusheable : MonoBehaviour
     public float offsetY;
 
     public abstract void OnCrush();
+
+
+    public virtual void OnReciveHit(int lifes)
+    {
+
+    }
+
 }

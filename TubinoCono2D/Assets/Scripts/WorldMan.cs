@@ -71,7 +71,10 @@ public class WorldMan : MonoBehaviour
                 ld.isLock = ES3.Load<bool>("l" + i, true);
 
             leveldata.Add(ld);
-                
+
+
+            //BORRAME
+            ld.isLock = false;
         }
     }
 

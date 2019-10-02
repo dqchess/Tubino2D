@@ -42,6 +42,7 @@ public class Crush : MonoBehaviour
             this.crusheable.OnCrush();
         }
 
+        this.crusheable.OnReciveHit(this.clife);
         
         
     }
