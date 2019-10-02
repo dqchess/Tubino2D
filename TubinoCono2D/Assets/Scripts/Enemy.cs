@@ -2,15 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy : ICrusheable
 {
 
-   
+    public Crush crush;
    public bool isDie = false;
    public void Initialize()
    {
         this.isDie = false;
-        this.GetComponent<Crush>().Initialize(this);
+        crush = this.GetComponent<Crush>();
+        crush.Initialize(this);
    }
 
 
@@ -32,6 +33,11 @@ public class Enemy : MonoBehaviour
             this.GetComponent<DieEnemy>().OnPass();
             
         }
+    }
+
+    public override void OnCrush()
+    {
+
     }
 
 }

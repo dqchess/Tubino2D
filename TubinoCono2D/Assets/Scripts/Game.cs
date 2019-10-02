@@ -8,14 +8,14 @@ public class Game : MonoBehaviour
     public int currentHord = 0;
     public LevelMan levelMan;
     public static Game Me;
-    public Text scoreTxt;
 
     public int lifes = 3;
     public int score = 0;
-    public Hearts hearts;
 
-    public LevelClearPopup levelClearPopup;
-    public GameOverPopup gameOverPopup;
+
+    public UIGameScreen ui;
+
+
     private void Awake()
     {
         Me = this;
@@ -24,7 +24,10 @@ public class Game : MonoBehaviour
 
     public void LevelClear()
     {
-        levelClearPopup.Open();
+        ES3.Save<int>("money", score);
+        ui.levelClearPopup.Open();
+
+        WorldMan.Me.SaveValues(lifes,true);
     }
 
     private void Start()
@@ -32,11 +35,13 @@ public class Game : MonoBehaviour
         StartNewGame();
     }
 
+    
     public void StartNewGame()
     {
         isPlaying = true;
-        this.score = 0;
         levelMan.StartGeneration(WorldMan.Me.currentLevel);
+        score = ES3.Load<int>("money", 0);
+        ui.scoreTxt.text = "" + score;
     }
 
 
@@ -44,31 +49,40 @@ public class Game : MonoBehaviour
     {
         levelMan.enemyFactory.ReportDie(enemy);
         this.score++;
-        this.scoreTxt.text = "" + score;
+        this.ui.scoreTxt.text = "" + score;
             
     }
 
     public void OnGameOver()
     {
-        isPlaying = false;
-        levelMan.StopGeneration();
-        gameOverPopup.Open();
+        if (isPlaying)
+        {
+            ES3.Save<int>("money", score);
+            isPlaying = false;
+            levelMan.StopGeneration();
+            ui.gameOverPopup.Open();
+
+        }
+        
     }
 
     public bool isPlaying = false;
 
     public void ReportPass(Enemy enemy)
     {
+        if (!isPlaying)
+            return;
+
         levelMan.enemyFactory.ReportDie(enemy);
 
-        lifes--;
+        lifes-=enemy.crush.life;
         if (lifes <= 0)
         {
             lifes = 0;
             OnGameOver();
         }
 
-        hearts.UpdateLives(lifes);
+        ui.hearts.UpdateLives(lifes);
 
 
 

@@ -47,7 +47,14 @@ public class EnemyFactory: Factory
         new Vector3(4,2,0) ,
         new Vector3(0,4,0) ,
         new Vector3(2,4,0) ,
-        new Vector3(4,4,0) };
+        new Vector3(4,4,0) ,
+        new Vector3(0,6,0) ,
+        new Vector3(2,6,0) ,
+        new Vector3(4,6,0) ,
+        new Vector3(0,8,0) ,
+        new Vector3(2,8,0) ,
+        new Vector3(4,8,0)
+    };
 
     Level level;
     public void Create(Level _level)
@@ -59,6 +66,9 @@ public class EnemyFactory: Factory
 
     void NextHorda()
     {
+        if (!this.canGenerate)
+            return;
+
         if (currentHorda == level.hordas.Count)
         {
             Game.Me.LevelClear();
@@ -71,69 +81,28 @@ public class EnemyFactory: Factory
         {
             if (level.hordas[currentHorda].patterns[i] >= 0)
             {
-                GameObject enemy = TrashMan.spawn(gameWeights.enemy[level.hordas[currentHorda].patterns[i]].name);
-                Enemy e = enemy.GetComponent<Enemy>();
-                e.GetComponent<Enemy>().Initialize();
-                enemy.transform.position = initialpos + offsets[i];
-                //Debug.Log(initialpos + offsets[i] + "  " + offsets[i]);
-                cHorda.Add(e);
+                if(level.hordas[currentHorda].patterns[i] == 3)
+                {
+                    GameObject protestante = TrashMan.spawn(gameWeights.enemy[level.hordas[currentHorda].patterns[i]].name);
+                    Protestante e = protestante.GetComponent<Protestante>();
+                    e.GetComponent<Protestante>().Initialize();
+                    protestante.transform.position = initialpos + offsets[i];
+                }
+                else
+                {
+                    GameObject enemy = TrashMan.spawn(gameWeights.enemy[level.hordas[currentHorda].patterns[i]].name);
+                    Enemy e = enemy.GetComponent<Enemy>();
+                    e.GetComponent<Enemy>().Initialize();
+                    enemy.transform.position = initialpos + offsets[i];
+                    //Debug.Log(initialpos + offsets[i] + "  " + offsets[i]);
+                    cHorda.Add(e);
+                }
+               
             }           
         }
         currentHorda++;
         
     }
-
-
-
-    /*public void Create(int meters)
-    {
-        if (!this.canGenerate)
-            return;
-
-        this.countHorda++;
-
-        cHorda.Clear();   
-
-        int res = 0;
-       
-        if (familyIncomplete)
-        {
-            if (this.acumFamily < this.limitFamily)
-            {
-                res = this.tempoFamilyId;
-                this.acumFamily++;
-            }
-            else
-            {
-                res = GetOneID(gameWeights.levels, meters);
-                this.familyIncomplete = false;
-                this.tempoFamilyId = 0;
-                this.acumFamily = 0;
-                this.limitFamily = 0;
-            }
-
-
-        }
-        else
-        {
-            res = GetOneID(gameWeights.levels, meters);
-            if (gameWeights.levels[res].family.x > 1 || gameWeights.levels[res].family.y > 1)
-            {
-                familyIncomplete = true;
-                int r = Random.Range(gameWeights.levels[res].family.x, gameWeights.levels[res].family.y + 1);
-                this.tempoFamilyId = res;
-                this.acumFamily = 1;
-                this.limitFamily = r;
-            }
-        }
-
-       
-        GameObject pattern = TrashMan.spawn(gameWeights.levels[res].name);
-        pattern.transform.position = new Vector3(0, 8, 0);
-        Spawns spawns = pattern.GetComponent<Spawns>();
-
-        FillEnemy(spawns, meters);
-    }*/
 
 
     public void FillEnemy(Spawns _spawns, int meters)

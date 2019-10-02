@@ -4,14 +4,20 @@ using UnityEngine;
 
 public class LevelClearPopup : MonoBehaviour
 {
+
     public void OnClickRestart()
     {
+        
         ScreenMan.Me.GotoGame();
     }
 
     public void OnClickNextLevel()
     {
-        ScreenMan.Me.GoToLevelSelector();
+        //ScreenMan.Me.GoToLevelSelector();
+        if(WorldMan.Me.SetNextLevel())
+            ScreenMan.Me.GotoGame();
+        else
+            ScreenMan.Me.GoToLevelSelector();
     }
 
     public void OnClickHome()
@@ -22,5 +28,6 @@ public class LevelClearPopup : MonoBehaviour
     public void Open()
     {
         this.gameObject.SetActive(true);
+
     }
 }
