@@ -5,9 +5,10 @@ using UnityEngine;
 public class Enemy : ICrusheable
 {
 
-    public Crush crush;
+    
+   public Crush crush;
    public bool isDie = false;
-    int parameter = 0;
+   int parameter = 0;
    public virtual void Initialize(int _parameter)
    {
         this.isDie = false;

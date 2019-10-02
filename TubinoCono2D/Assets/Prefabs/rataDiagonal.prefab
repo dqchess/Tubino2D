@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 6891349350499297984}
   m_Layer: 0
   m_Name: rataDiagonal
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,7 +100,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: c7052ed3870cbe547a608903bbaad26d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1

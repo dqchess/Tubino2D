@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 6618565489264559934}
   m_Layer: 0
   m_Name: becerril
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119,6 +119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offsetY: 1.7
+  crush: {fileID: 0}
   isDie: 0
 --- !u!61 &921066062387554203
 BoxCollider2D:
@@ -130,7 +131,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.77125}
