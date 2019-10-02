@@ -15,6 +15,7 @@ public class UIGameScreen : MonoBehaviour
     public Camera mycamera;
     public Canvas canvas;
     public Image levelClear;
+    public SpriteRenderer background;
 
     public void OnClickPause()
     {
@@ -52,4 +53,15 @@ public class UIGameScreen : MonoBehaviour
 
     }
     
+    public void CanvasScaler()
+    {
+        float w = background.sprite.bounds.size.x;
+        float h = background.sprite.bounds.size.y;
+
+        float wordH = Camera.main.orthographicSize * 2;
+        float wordW = wordH / Screen.height * Screen.width;
+
+        background.transform.localScale = new Vector2(wordW / w, wordH / h);
+        background.transform.position = new Vector3(0, 0, 0);
+    }
 }
