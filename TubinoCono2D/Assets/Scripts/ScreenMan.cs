@@ -10,6 +10,7 @@ public class ScreenMan : MonoBehaviour
     {
         Me = this;
         GameObject.DontDestroyOnLoad(this.gameObject);
+        Application.targetFrameRate = 60;
     }
 
     public void GoToMenu()

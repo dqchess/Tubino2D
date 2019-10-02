@@ -35,7 +35,7 @@ public class ConoPowerup : MonoBehaviour
     
     private void Update()
     {
-        if (waiting)
+        /*if (waiting)
         {
             Vector3 s = cam.ScreenToWorldPoint(Input.mousePosition);
             s.z = 0;
@@ -51,6 +51,6 @@ public class ConoPowerup : MonoBehaviour
                 c++;
                 
             }
-        }
+        }*/
     }
 }

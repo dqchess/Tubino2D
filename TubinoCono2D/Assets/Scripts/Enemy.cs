@@ -32,9 +32,7 @@ public class Enemy : ICrusheable
 
         if (this.transform.position.y < -7.3f)
         {
-            //TrashMan.despawn(this.gameObject);
             this.GetComponent<DieEnemy>().OnPass();
-            
         }
     }
 
