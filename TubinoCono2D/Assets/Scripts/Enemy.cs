@@ -7,9 +7,11 @@ public class Enemy : ICrusheable
 
     public Crush crush;
    public bool isDie = false;
-   public void Initialize()
+    int parameter = 0;
+   public virtual void Initialize(int _parameter)
    {
         this.isDie = false;
+        this.parameter = _parameter;
         crush = this.GetComponent<Crush>();
         crush.Initialize(this);
    }

@@ -92,7 +92,7 @@ public class EnemyFactory: Factory
                 {
                     GameObject enemy = TrashMan.spawn(gameWeights.enemy[level.hordas[currentHorda].patterns[i]].name);
                     Enemy e = enemy.GetComponent<Enemy>();
-                    e.GetComponent<Enemy>().Initialize();
+                    e.GetComponent<Enemy>().Initialize(gameWeights.enemy[level.hordas[currentHorda].patterns[i]].parameter);
                     enemy.transform.position = initialpos + offsets[i];
                     //Debug.Log(initialpos + offsets[i] + "  " + offsets[i]);
                     cHorda.Add(e);
@@ -105,7 +105,7 @@ public class EnemyFactory: Factory
     }
 
 
-    public void FillEnemy(Spawns _spawns, int meters)
+    /*public void FillEnemy(Spawns _spawns, int meters)
     {
         for (int s = 0; s < _spawns.spawns.Count; s++)
         {
@@ -120,7 +120,7 @@ public class EnemyFactory: Factory
         }
 
         TrashMan.despawn(_spawns.gameObject);
-    }
+    }*/
 
     public void ReportDie(Enemy enemy)
     {

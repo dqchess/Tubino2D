@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 6229277258390867712}
   - component: {fileID: 6229277258390867715}
   - component: {fileID: 6229277258390867714}
-  - component: {fileID: 6229277258390867713}
   - component: {fileID: 6229277258390867717}
   - component: {fileID: 1437672514985614357}
   - component: {fileID: -3329904606018528762}
   - component: {fileID: 5441632860322943605}
+  - component: {fileID: 6502213584239150698}
   m_Layer: 0
   m_Name: rata
   m_TagString: Untagged
@@ -106,20 +106,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6229277258390867713
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6229277258390867716}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbfde19dd576d5e49b791ca6081757bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  offsetY: 0.8
-  isDie: 0
 --- !u!61 &6229277258390867717
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -171,7 +157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c174874fa576994b9e53ffeb01090a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 6229277258390867713}
+  enemy: {fileID: 6502213584239150698}
 --- !u!114 &5441632860322943605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,3 +171,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   life: 1
+--- !u!114 &6502213584239150698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6229277258390867716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6af8a325a66d66643bc972365fbc4f38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetY: 0.8
+  crush: {fileID: 0}
+  isDie: 0

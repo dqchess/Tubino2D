@@ -11,8 +11,10 @@ public class ItemLevelSelector : MonoBehaviour
     public Text lvl;
     public Button button;
     int idLevel;
-    public void Initialize(int idLevel)
+    public void Initialize(int _idLevel)
     {
+        this.idLevel = _idLevel;
+
         lvl.text = "" + (idLevel + 1);
 
         if(!WorldMan.Me.leveldata[idLevel].isLock)
