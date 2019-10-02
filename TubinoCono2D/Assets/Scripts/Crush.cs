@@ -17,7 +17,7 @@ public class Crush : MonoBehaviour
     {
         this.clife--;
 
-        if (this.crusheable.transform.position.x < 0)
+        /*if (this.crusheable.transform.position.x < 0)
         {
             Cono cono = TrashMan.spawn("cono_r", this.transform.position + Vector3.left * 0.8f + Vector3.up * crusheable.offsetY).GetComponent<Cono>();
             cono.Initialize();
@@ -26,7 +26,7 @@ public class Crush : MonoBehaviour
         {
             Cono cono = TrashMan.spawn("cono_l", this.transform.position + Vector3.right * 0.8f + Vector3.up * crusheable.offsetY).GetComponent<Cono>();
             cono.Initialize();
-        }
+        }*/
             
 
         if (this.clife <= 0)
