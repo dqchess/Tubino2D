@@ -14,9 +14,9 @@ public class DieEnemy : MonoBehaviour, IDie
             enemy.isDie = true;
 
 
-            MoneyFly moneyfly = TrashMan.spawn("moneyFly", Game.Me.ui.mycamera.WorldToScreenPoint(this.transform.position)).GetComponent<MoneyFly>();
+            /*MoneyFly moneyfly = TrashMan.spawn("moneyFly", Game.Me.ui.mycamera.WorldToScreenPoint(this.transform.position)).GetComponent<MoneyFly>();
             moneyfly.gameObject.transform.SetParent(Game.Me.ui.canvas.transform);
-            moneyfly.Fly();
+            moneyfly.Fly();*/
 
             TrashMan.despawn(this.gameObject);
             Game.Me.OnEnemyDie(this.enemy);
