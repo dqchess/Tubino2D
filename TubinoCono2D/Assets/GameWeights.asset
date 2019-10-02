@@ -134,3 +134,27 @@ MonoBehaviour:
     parameter: 1
     family: {x: 0, y: 0}
     range: {x: 0, y: -1}
+  - editorName: 
+    name: galarreta
+    weight: 100
+    parameter: 1
+    family: {x: 0, y: 0}
+    range: {x: 0, y: -1}
+  - editorName: 
+    name: luzsalgado
+    weight: 100
+    parameter: 1
+    family: {x: 0, y: 0}
+    range: {x: 0, y: -1}
+  - editorName: 
+    name: mamani
+    weight: 100
+    parameter: 1
+    family: {x: 0, y: 0}
+    range: {x: 0, y: -1}
+  - editorName: 
+    name: solar
+    weight: 100
+    parameter: 1
+    family: {x: 0, y: 0}
+    range: {x: 0, y: -1}

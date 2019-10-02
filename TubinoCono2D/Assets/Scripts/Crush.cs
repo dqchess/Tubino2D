@@ -22,6 +22,8 @@ public class Crush : MonoBehaviour
         {
             ParticleSystem cono = TrashMan.spawn("moneyPa", this.transform.position+Vector3.up*0.5f).GetComponent<ParticleSystem>();
             cono.Play();
+
+            TrashMan.spawn("TMR", this.transform.position).GetComponent<Boom>().Initialize();
         }
         
         /*if (this.crusheable.transform.position.x < 0)

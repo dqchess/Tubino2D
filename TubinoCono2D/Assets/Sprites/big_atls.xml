@@ -1,36 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
-<!-- $TexturePacker:SmartUpdate:cb97a7ea06c1e6ed9732ee8d9045d26b:4f8bb9796a93de9c86e60ba5c955f28f:40e977a1c6e58292241cc15516f759d7$ -->
+<!-- $TexturePacker:SmartUpdate:3cf13edd5f838f238321b1cf436e5cc6:068e9483948d1c543f0dd0fffc999335:40e977a1c6e58292241cc15516f759d7$ -->
 <TextureAtlas imagePath="big_atls.png" width="2048" height="2048">
-    <SubTexture name="Becerrilcabeza" x="1032" y="1547" width="364" height="420" frameX="-87" frameY="0" frameWidth="474" frameHeight="420"/>
-    <SubTexture name="billete" x="1683" y="245" width="187" height="165" frameX="-7" frameY="-21" frameWidth="200" frameHeight="200"/>
-    <SubTexture name="chico pancarta1" x="1872" y="190" width="159" height="187"/>
-    <SubTexture name="chico pancarta2" x="773" y="1787" width="257" height="259"/>
-    <SubTexture name="chico pancarta3" x="1398" y="1547" width="105" height="131"/>
-    <SubTexture name="chico pancarta4" x="810" y="1177" width="309" height="336"/>
-    <SubTexture name="cono" x="423" y="815" width="208" height="285" frameX="-6" frameY="-5" frameWidth="220" frameHeight="294"/>
-    <SubTexture name="corazon" x="1505" y="1605" width="175" height="153" frameX="-14" frameY="-27" frameWidth="200" frameHeight="200"/>
-    <SubTexture name="del solar" x="1584" y="480" width="328" height="418" frameX="-112" frameY="-15" frameWidth="500" frameHeight="500"/>
+    <SubTexture name="Becerrilcabeza" x="1079" y="1547" width="364" height="420" frameX="-87" frameY="0" frameWidth="474" frameHeight="420"/>
+    <SubTexture name="billete" x="1226" y="480" width="187" height="165" frameX="-7" frameY="-21" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="chico pancarta1" x="1843" y="818" width="159" height="187"/>
+    <SubTexture name="chico pancarta2" x="1584" y="818" width="257" height="259"/>
+    <SubTexture name="chico pancarta3" x="773" y="1648" width="105" height="131"/>
+    <SubTexture name="chico pancarta4" x="1584" y="480" width="309" height="336"/>
+    <SubTexture name="cono" x="890" y="1177" width="208" height="285" frameX="-6" frameY="-5" frameWidth="220" frameHeight="294"/>
+    <SubTexture name="corazon" x="1860" y="1164" width="175" height="153" frameX="-14" frameY="-27" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="del solar" x="1445" y="1605" width="328" height="418" frameX="-112" frameY="-15" frameWidth="500" frameHeight="500"/>
     <SubTexture name="galarreta" x="1" y="1" width="675" height="812" frameX="-165" frameY="-80" frameWidth="1024" frameHeight="1024"/>
+    <SubTexture name="garra" x="503" y="1004" width="155" height="119"/>
+    <SubTexture name="katana" x="423" y="815" width="78" height="418"/>
     <SubTexture name="keiko" x="678" y="693" width="456" height="482" frameX="-12" frameY="-11" frameWidth="500" frameHeight="500"/>
     <SubTexture name="luz salgado" x="1" y="815" width="420" height="489" frameX="-23" frameY="-1" frameWidth="500" frameHeight="500"/>
-    <SubTexture name="mamani" x="423" y="1177" width="385" height="469" frameX="-61" frameY="-1" frameWidth="500" frameHeight="500"/>
+    <SubTexture name="mamani" x="503" y="1177" width="385" height="469" frameX="-61" frameY="-1" frameWidth="500" frameHeight="500"/>
+    <SubTexture name="mano" x="1843" y="1007" width="177" height="155"/>
     <SubTexture name="meche" x="1136" y="693" width="446" height="484" frameX="-24" frameY="-12" frameWidth="500" frameHeight="500"/>
     <SubTexture name="montesinos" x="1" y="1306" width="394" height="458" frameX="-43" frameY="-14" frameWidth="500" frameHeight="500"/>
-    <SubTexture name="mulder" x="1512" y="1179" width="367" height="424" frameX="-53" frameY="-16" frameWidth="500" frameHeight="500"/>
-    <SubTexture name="policia1" x="810" y="1515" width="220" height="270"/>
-    <SubTexture name="policia2" x="1121" y="1179" width="389" height="366"/>
+    <SubTexture name="mulder" x="1491" y="1179" width="367" height="424" frameX="-53" frameY="-16" frameWidth="500" frameHeight="500"/>
+    <SubTexture name="policia1" x="1775" y="1605" width="220" height="270"/>
+    <SubTexture name="policia2" x="1100" y="1179" width="389" height="366"/>
     <SubTexture name="policia3" x="397" y="1648" width="374" height="340"/>
-    <SubTexture name="policia4" x="1226" y="480" width="209" height="159"/>
-    <SubTexture name="policia5" x="1437" y="480" width="103" height="144"/>
-    <SubTexture name="rataconpatasbrazo1" x="1398" y="1680" width="103" height="126"/>
-    <SubTexture name="rataconpatasbrazo2" x="1682" y="1605" width="103" height="126"/>
-    <SubTexture name="rataconpatascabeza1" x="1683" y="1" width="187" height="242" frameX="-8" frameY="0" frameWidth="202" frameHeight="252"/>
+    <SubTexture name="policia4" x="1775" y="1877" width="209" height="159"/>
+    <SubTexture name="policia5" x="397" y="1306" width="103" height="144"/>
+    <SubTexture name="rataconpatasbrazo1" x="397" y="1452" width="103" height="126"/>
+    <SubTexture name="rataconpatasbrazo2" x="1860" y="1319" width="103" height="126"/>
+    <SubTexture name="rataconpatascabeza1" x="890" y="1464" width="187" height="242" frameX="-8" frameY="0" frameWidth="202" frameHeight="252"/>
     <SubTexture name="rataconpatascabeza2" x="1" y="1766" width="301" height="237"/>
-    <SubTexture name="rataconpatascabeza3" x="1584" y="900" width="275" height="244"/>
-    <SubTexture name="rataconpatascuerpo1" x="1861" y="900" width="160" height="187" frameX="0" frameY="0" frameWidth="164" frameHeight="187"/>
-    <SubTexture name="rataconpatascuerpo2" x="1872" y="1" width="160" height="187" frameX="0" frameY="0" frameWidth="166" frameHeight="187"/>
-    <SubTexture name="rataconpataspie" x="423" y="1102" width="78" height="61"/>
+    <SubTexture name="rataconpatascabeza3" x="773" y="1781" width="275" height="244"/>
+    <SubTexture name="rataconpatascuerpo1" x="503" y="815" width="160" height="187" frameX="0" frameY="0" frameWidth="164" frameHeight="187"/>
+    <SubTexture name="rataconpatascuerpo2" x="1415" y="480" width="160" height="187" frameX="0" frameY="0" frameWidth="166" frameHeight="187"/>
+    <SubTexture name="rataconpataspie" x="423" y="1235" width="78" height="61"/>
     <SubTexture name="rosa bartra" x="1226" y="1" width="455" height="477" frameX="-6" frameY="-16" frameWidth="500" frameHeight="500"/>
+    <SubTexture name="sombras" x="880" y="1708" width="175" height="70"/>
     <SubTexture name="tubinocabeza" x="678" y="1" width="546" height="690" frameX="-114" frameY="-23" frameWidth="716" frameHeight="731"/>
 </TextureAtlas>

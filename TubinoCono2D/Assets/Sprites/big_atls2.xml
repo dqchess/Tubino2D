@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:613ac70fa2daed2399fb4662e4e20198:42037f990a712c0e1714fa058c22acec:cc3262dd728f9988b875a6749a40b4a3$ -->
+<TextureAtlas imagePath="big_atls2.png" width="1024" height="1024">
+    <SubTexture name="CSM" x="483" y="1" width="475" height="288" frameX="-12" frameY="-88" frameWidth="500" frameHeight="500"/>
+    <SubTexture name="ICONO TUMBARATAS-04" x="295" y="756" width="291" height="211" frameX="-37" frameY="-9" frameWidth="354" frameHeight="238"/>
+    <SubTexture name="ICONO TUMBARATAS-05" x="588" y="505" width="291" height="211" frameX="-37" frameY="-9" frameWidth="354" frameHeight="238"/>
+    <SubTexture name="ICONO TUMBARATAS-06" x="1" y="757" width="292" height="211" frameX="-37" frameY="-9" frameWidth="354" frameHeight="238"/>
+    <SubTexture name="ICONO TUMBARATAS-07" x="294" y="543" width="292" height="211" frameX="-37" frameY="-9" frameWidth="354" frameHeight="238"/>
+    <SubTexture name="ICONO TUMBARATAS-08" x="483" y="291" width="292" height="212" frameX="-37" frameY="-8" frameWidth="354" frameHeight="238"/>
+    <SubTexture name="ICONO TUMBARATAS-09" x="1" y="543" width="291" height="212" frameX="-37" frameY="-8" frameWidth="354" frameHeight="238"/>
+    <SubTexture name="ICONO TUMBARATAS-10" x="1" y="329" width="292" height="212" frameX="-36" frameY="-8" frameWidth="354" frameHeight="238"/>
+    <SubTexture name="TMR" x="1" y="1" width="480" height="326" frameX="-12" frameY="-75" frameWidth="500" frameHeight="500"/>
+</TextureAtlas>

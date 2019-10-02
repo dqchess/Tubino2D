@@ -8,6 +8,9 @@ public class Tombo : Enemy
 
     public override void Initialize(int _parameter)
     {
+        casco.SetActive(true);
+        escudo.SetActive(true);
+
         int spd = 3;
         if (_parameter == 0)
             spd = 3;
