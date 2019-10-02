@@ -230,11 +230,7 @@ MonoBehaviour:
   openReferences: 0
   openPrefabs: 0
   idRef:
-<<<<<<< HEAD
     _Keys: 9ada9028e5ec45552ab1e436cebeaa0d0353582373e1ad6cf2520f87cebfe04573887c522254986567a68d4d7224be10202a355971d4d47b89fd3792dcbd8669d19faa573bfc3050450c4333ab9f0516eee0975b75792c475df7da208c2b4125d308e1ed30e9b422051bea9a6f5e3017f82081bc55e1df4acdf2b533d650dc6f6c45aaa5716e2700c7c217acacfe7b0fd668dec1cb7eb356f75ae9d8bed3d6203b585110373ad85dcbb4fa9967891c4c1b9086d809590c16fa009dcc57ffbe0becf7e7054f8b4610c0c3748086b2427e7736bc2d4cfd166b9b98e8c962f4f935f6ee855e71219c6fbf1e448dbcec5810e07b6ab7a27dad4cbea98a972ce30d67d22ce3d665499e0e05d0787ec7780e0897743fed8b54123323a4438c0ad3ec45647efe485cdf2427c1e9f0e641d80839b89c6cea17253867ffd6cae61186286438cf1298369ec80e018827e73e9027499d09d46d66012d764a99b9cd55f5c73ac18c1e10eba17055657be98ffd51296e517fb5f84d45023a03771d30a86a9b0b3f12d94e8ee9a1046681f614e7618707714b1ed5abbf880571a7f18b7cbf52061f2131f0d5880368ff25bf5d4cc660014f86b25b5054537b58c70ec61304b010325891a28be7267f3437459411203e7a14bc18db76070a3b483a01ee90a28077a3c62a74a8b3082a50f51e458af3532ab9bd8c9b89a1637eb5c058958049277719e26ea9330ae0546d6cee0c8b3e316f72a3852ea21192019d53d597f4625507cea65e6c62fd5d52dd372f1db357f20b0e38f9dc30aae507af92b8781f88b730c2f5da329d9ed26e01d8516be2744d0b46e0a42c5b31387874994330bb1bcd65ef5f5bbd7cbf6d6f657474618ca3bc322eb2d916c75b75259ca0c0340bce724b408117a821effb28e4745d89ba2712011e68e973e04c504e4bb4266f8240d00294e1c8e20c83886d28a052a1cfa35346ee28846c17800e4b6ea793d38a5c3a378c40dddbbf68d45f2a54e664394b227ce5998538947d5d488c1bf7085093f17c4a76f1fcc87c21567fd1be5fc109cb3f503d8913dfc14853505514fd217acb1e21128c19ed28b53721b56e08fd19b669b15704edc07acf74051707123c52f5511e880e1f6cd6692452e1128ad95fc03c861071a35114f10cd49847c3e5d9ab1365bdd021fd19d25a46f4adb71a5f7d3671cd85fede059859b4597dbf749a84468d5be4b60db9ce322fb4fbfd288d1567f35202e7cc4865667d8b16595ab1c32a7007dffdad0b5759dce7c5ca2d6e1d3d30d776ec21d18279ffe7e89e00f5306bed49fe1da19e5f01aa5c0ae4829a380f9326d67cc528f6401e6d9f7182a88a0fcded6a3020e6dc69d2cc90a772b5ba4ef98a16e259bc3a0673cfbe63e5733050b172e899c8509330ba82afbc63ebec64259427c487e88174ff639ec70141e15ebc223d514c6bc8660ba3735ca201b76405d092595371620bdbb03adbb5458d4df8aeaef5a42fd46ad4fe86a542edca02ac3acbd2d33bb22e85482cfca5a41c51cf3f9c0cac3d40345b037aab14433612e63888f0115f2042047f90a3fc283b781bd7d60250be55157aff76cfc1061942efe61d21d3f39d6f1f5a082cad9c387bc10d3913e6c69c27e3726b11d6f0030a9ad2b5150b1aa427c5981b0949d69717c90d7030bfd2d7274af63f61888c982ea9026c2418dd8f5996ed26811d598e46f67db737802db438057234ea25bc6052314a60476a73fe5a6235385307a7ba5c7b7aa8fabc2f517bb3cbe059565bcb25732bb02c06b8237d7f5dd54af561315db7d86faa13669501081b06caaba84e42015dc53357e6623363d985a0a5f9791302c1eed13589c6263e4eda154da62e2754e8b6686402f92e8bc4f21214c9580e5d0c329369df88776a600af7f3b21a08f852b342bdef5005ba1d5bf97cd93a0700bbb0696ab7840c43164350c335bc6e991e11f8e0063b1053eeaa12f6c5135808303f7ebb7ac71171158750ec623917d27c6c6037dc140a37dea1a2f6e9eb7c0f7624e5b236c16db52aacfefeb3c80c7060d5fbe70be805d248aaa3218a070ddc6108d48f69815f3a278c8b77b04d2090d62d9b2659b87465f1aa234be3127f1872c6698bfc4015f1852f6591c0b272ae2944b83ce63916
-=======
-    _Keys: 9ada9028e5ec45552ab1e436cebeaa0d0353582373e1ad6cf2520f87cebfe04573887c522254986567a68d4d7224be10202a355971d4d47b89fd3792dcbd8669d19faa573bfc3050450c4333ab9f0516eee0975b75792c475df7da208c2b4125d308e1ed30e9b422051bea9a6f5e3017f82081bc55e1df4acdf2b533d650dc6f4f6860a2be17e5286c45aaa5716e2700c7c217acacfe7b0fd668dec1cb7eb356f75ae9d8bed3d6203b585110373ad85dcbb4fa9967891c4c1b9086d809590c16fa009dcc57ffbe0becf7e7054f8b4610c0c3748086b2427e7736bc2d4cfd166b9b98e8c962f4f935f6ee855e71219c6fbf1e448dbcec5810e07b6ab7a27dad4cbea98a972ce30d67d22ce3d665499e0e05d0787ec7780e0897743fed8b54123323a4438c0ad3ec45647efe485cdf2427c1e9f0e641d80839b89c6cea17253867ffd6cae61186286438cf1298369ec80e018827e73e9027499d09d46d66012d764a99b9cd55f5c73ac18c1e10eba17055657be98ffd51296e517fb5f84d45023a03771d30a86a9b0b3f12d94e8ee9a1046681f614e7618707714b1ed5abbf880571a7f18b7cbf52061f2131f0d5880368234f6e33b112ad63ff25bf5d4cc660016621231908ea77594f86b25b5054537babaa755e8050ad197eccaa0954e38f3728ea9d5df88c6c6a58c70ec61304b010325891a28be7267f3437459411203e7a14bc18db76070a3b483a01ee90a28077a3c62a74a8b3082a50f51e458af3532ab9bd8c9b89a1637eb5c058958049277719e26ea9330ae0546d6cee0c8b3e316f72a3852ea21192019d53d597f4625507cea65e6c62fd5d52dd372f1db357f20b0e38f9dc30aae507af92b8781f88b730c2f5da329d9ed26e01d8516be2744d0b46e0a42c5b31387874994330bb1bcd65ef5f5bbd7cbf6d6f657474618ca3bc322eb2d916c75b75259ca0c0340bce724b408117a821effb28e4745d89ba2712011e68e973e04c504e4bb4266f8240d00294e1c8e20c83886d28a052a1cfa35346ee28846c17800e4b6ea793d38a5c3a378c40dddbbf68d45f2a54e664394b227ce5998538947d5d488c1bf7085093f17c4a76f1fcc87c21567fd1be5fc109cb3f503d8913dfc14853505514fd217acb1e21128c19ed28b53721b56e08fd19b669b15704edc07acf74051707123c52f5511e880e1f6cd6692452e1128ad95fc03c861071a35114f10cd49847c3e5d9ab1365bdd021fd19d25a46f4adb71a5f7d3671cd85fede059859b4597dbf749a84468d5be4b60db9ce322fb4fbfd288d1567f35202e7cc4865667d8b16595ab1c32a7007dffdad0b5759dce7c5ca2d6e1d3d30d776ec21d18279ffe7e89e00f5306bed49fe1da19e5f01aa5c0ae4829a380f9326d67cc528f6401e6d9f7182a88a0fcded6a3020e6dc69d2cc90a772b5ba4ef98a16e259bc3a0673cfbe63e5733050b172e899c8509330ba82afbc63ebec64259427c487e88174ff639ec70141e15ebc223d514c6bc8660ba3735ca201b76405d092595371620bdbb03adbb5458d4df8aeaef5a42fd46ad4fe86a542edca02ac3acbd2d33bb22e85482cfca5a41c51cf3f9c0cac3d40345b037aab14433612e63888f0115f2042047f90a3fc283b781bd7d60250be55157aff76cfc1061942efe61d21d3f39d6f1f5a082cad9c387bc10d3913e6c69c27e3726b11d6f0030a9ad2b5150b1aa427c5981b0949d69717c90d7030bfd2d7274af63f61888c982ea9026c2418dd8f5996ed26811d598e46f67db737802db438057234ea25bc6052314a60476a73fe5a6235385307a7ba5c7b7aa8fabc2f517bb3cbe059565bcb25732bb02c06b8237d7f5dd54af561315db7d86faa13669501081b06caaba84e42015dc53357e6623363d985a0a5f9791302c1eed13589c6263e4eda154da62e2754e8b6686402f92e8bc4f21214c9580e5d0c329369df88776a600af7f3b21a08f852b342bdef5005ba1d5bf97cd93a0700bbb0696ab7840c43164350c335bc6e991e11f8e0063b1053eeaa12f6c5135808303f7ebb7ac71171158750ec623917d27c6c6037dc140a37dea1a2f6e9eb7c0f7624e5b236c16db52aacfefeb3c80c7060d5fbe70be805d248aaa3218a070df92cbdce7111f02c
->>>>>>> 295c90d0c31c94286dc625c392a33405bb3299c2
     _Values:
     - {fileID: 1145488633}
     - {fileID: 1145488632}
@@ -252,10 +248,6 @@ MonoBehaviour:
     - {fileID: 10904, guid: 0000000000000000f000000000000000, type: 0}
     - {fileID: 506410091}
     - {fileID: 506410092}
-<<<<<<< HEAD
-=======
-    - {fileID: 0}
->>>>>>> 295c90d0c31c94286dc625c392a33405bb3299c2
     - {fileID: 2014553914}
     - {fileID: 1326137405}
     - {fileID: 1326137406}
@@ -294,15 +286,7 @@ MonoBehaviour:
     - {fileID: 1548135696}
     - {fileID: 1880796341}
     - {fileID: 1958416629}
-<<<<<<< HEAD
     - {fileID: 2014553913}
-=======
-    - {fileID: 1958416631}
-    - {fileID: 2014553913}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
->>>>>>> 295c90d0c31c94286dc625c392a33405bb3299c2
     - {fileID: 628671982}
     - {fileID: 1958416630}
     - {fileID: 713219420}
@@ -432,7 +416,6 @@ MonoBehaviour:
     - {fileID: 63621629}
     - {fileID: 63621628}
     - {fileID: 2981554725631600797, guid: d1aa6f2e2e8f304418f9e099e946a921, type: 3}
-<<<<<<< HEAD
     - {fileID: 1958416631}
     - {fileID: 1880796343}
     - {fileID: 1548135699}
@@ -440,9 +423,6 @@ MonoBehaviour:
     - {fileID: 1513374807}
     - {fileID: 1987768861}
     - {fileID: 912110812}
-=======
-    - {fileID: 1513374807}
->>>>>>> 295c90d0c31c94286dc625c392a33405bb3299c2
   prefabs: []
 --- !u!114 &62721363
 MonoBehaviour:
@@ -532,26 +512,15 @@ RectTransform:
   m_GameObject: {fileID: 63621627}
   m_LocalRotation: {x: 0, y: 0, z: -0.043619405, w: 0.9990483}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
   m_LocalScale: {x: 1, y: 1, z: 1}
-=======
-  m_LocalScale: {x: 2, y: 2, z: 1}
->>>>>>> 295c90d0c31c94286dc625c392a33405bb3299c2
   m_Children: []
   m_Father: {fileID: 506410092}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -5}
-<<<<<<< HEAD
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -50}
   m_SizeDelta: {x: 620, y: 516}
-=======
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
->>>>>>> 295c90d0c31c94286dc625c392a33405bb3299c2
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &63621630
 CanvasRenderer:
@@ -1056,19 +1025,15 @@ MonoBehaviour:
     m_Left: -50
     m_Right: -50
     m_Top: 100
-<<<<<<< HEAD
     m_Bottom: 400
-=======
-    m_Bottom: 450
->>>>>>> 295c90d0c31c94286dc625c392a33405bb3299c2
   m_ChildAlignment: 4
   m_Spacing: 25
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
   m_ChildControlHeight: 1
-  m_ChildScaleWidth: 1
-  m_ChildScaleHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
 --- !u!1 &617175876
 GameObject:
   m_ObjectHideFlags: 0
@@ -1792,13 +1757,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 5}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-<<<<<<< HEAD
   m_AnchoredPosition: {x: 160, y: -166}
   m_SizeDelta: {x: 123.333336, y: 132}
-=======
-  m_AnchoredPosition: {x: 160, y: -147.66666}
-  m_SizeDelta: {x: 90, y: 95.33331}
->>>>>>> 295c90d0c31c94286dc625c392a33405bb3299c2
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &912110810
 CanvasRenderer:
@@ -1864,21 +1824,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 1
-<<<<<<< HEAD
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
-=======
-  m_MinWidth: 90
-  m_MinHeight: 0
-  m_PreferredWidth: 100
-  m_PreferredHeight: 15
-  m_FlexibleWidth: 1
-  m_FlexibleHeight: 1
->>>>>>> 295c90d0c31c94286dc625c392a33405bb3299c2
   m_LayoutPriority: 1
 --- !u!1 &957371852
 GameObject:
@@ -2375,27 +2326,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 200
-    m_Right: 200
+    m_Left: 150
+    m_Right: 150
     m_Top: 250
     m_Bottom: 0
   m_ChildAlignment: 4
-<<<<<<< HEAD
   m_Spacing: 15
-=======
-  m_Spacing: 0
->>>>>>> 295c90d0c31c94286dc625c392a33405bb3299c2
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
   m_ChildControlHeight: 1
-<<<<<<< HEAD
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
-=======
-  m_ChildScaleWidth: 1
-  m_ChildScaleHeight: 1
->>>>>>> 295c90d0c31c94286dc625c392a33405bb3299c2
 --- !u!1 &1513374802
 GameObject:
   m_ObjectHideFlags: 0
@@ -2504,13 +2446,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -5}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-<<<<<<< HEAD
   m_AnchoredPosition: {x: 11.666668, y: -166}
   m_SizeDelta: {x: 123.333336, y: 132}
-=======
-  m_AnchoredPosition: {x: 45, y: -147.66666}
-  m_SizeDelta: {x: 90, y: 95.33331}
->>>>>>> 295c90d0c31c94286dc625c392a33405bb3299c2
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1513374806
 CanvasRenderer:
@@ -2533,21 +2470,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 1
-<<<<<<< HEAD
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
-=======
-  m_MinWidth: 90
-  m_MinHeight: 0
-  m_PreferredWidth: 100
-  m_PreferredHeight: 15
-  m_FlexibleWidth: 1
-  m_FlexibleHeight: 1
->>>>>>> 295c90d0c31c94286dc625c392a33405bb3299c2
   m_LayoutPriority: 1
 --- !u!1 &1548135694
 GameObject:
@@ -2971,21 +2899,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-<<<<<<< HEAD
     m_Left: 150
     m_Right: 150
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
   m_Spacing: 75
-=======
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
-  m_ChildAlignment: 4
-  m_Spacing: 50
->>>>>>> 295c90d0c31c94286dc625c392a33405bb3299c2
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
@@ -3044,15 +2963,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-<<<<<<< HEAD
     m_Left: 50
     m_Right: 50
     m_Top: 100
-=======
-    m_Left: 200
-    m_Right: 200
-    m_Top: 250
->>>>>>> 295c90d0c31c94286dc625c392a33405bb3299c2
     m_Bottom: 200
   m_ChildAlignment: 4
   m_Spacing: 0
@@ -3060,8 +2973,8 @@ MonoBehaviour:
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
   m_ChildControlHeight: 1
-  m_ChildScaleWidth: 1
-  m_ChildScaleHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
 --- !u!1 &1963769633
 GameObject:
   m_ObjectHideFlags: 0
@@ -3212,13 +3125,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -5}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-<<<<<<< HEAD
   m_AnchoredPosition: {x: 308.33334, y: -166}
   m_SizeDelta: {x: 123.333336, y: 132}
-=======
-  m_AnchoredPosition: {x: 275, y: -147.66666}
-  m_SizeDelta: {x: 90, y: 95.33331}
->>>>>>> 295c90d0c31c94286dc625c392a33405bb3299c2
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1987768860
 MonoBehaviour:
@@ -3276,21 +3184,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 1
-<<<<<<< HEAD
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
-=======
-  m_MinWidth: 90
-  m_MinHeight: 0
-  m_PreferredWidth: 100
-  m_PreferredHeight: 15
-  m_FlexibleWidth: 1
-  m_FlexibleHeight: 1
->>>>>>> 295c90d0c31c94286dc625c392a33405bb3299c2
   m_LayoutPriority: 1
 --- !u!1 &2014553913
 GameObject:
