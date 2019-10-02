@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 
-public enum AnimationState { StartAnimationTitle, EndAnimationTitle, StartAnimationButton, EndAnimationButton }
+public enum AnimationState { StartAnimationTitle, EndAnimationTitle, StartAnimationButton, EndAnimationButton, ExitAnimationMenu, ChangeScene }
 
 public class UIMenu : MonoBehaviour
 {
@@ -13,16 +13,20 @@ public class UIMenu : MonoBehaviour
     public RectTransform optionsPanel;
     CanvasScaler canvasScaler;
     AnimationState state;
+    bool exitMenu, methodSelection;
 
-    void Start()
+    private void Start()
     {
         canvasScaler = GetComponent<CanvasScaler>();
 
         StartPosition();
         titleMenu.DOAnchorPosY(0f, 0.25f, true);
         state = AnimationState.StartAnimationTitle;
+
+        exitMenu = false;
     }
-    void Update()
+
+    private void Update()
     {
         switch(state)
         {
@@ -44,6 +48,24 @@ public class UIMenu : MonoBehaviour
                     state = AnimationState.EndAnimationButton;
                 }
             break;
+            case AnimationState.EndAnimationButton:
+                if (exitMenu)
+                {
+                    titleMenu.DOAnchorPosY(800f, 0.25f, true);
+                    buttonMenu.DOAnchorPosY(-800f, 0.25f, true);
+                    state = AnimationState.ExitAnimationMenu;
+                }
+            break;
+            case AnimationState.ExitAnimationMenu:
+                if (titleMenu.anchoredPosition.y == 800f)
+                {
+                    state = AnimationState.ChangeScene;
+                }
+            break;
+            case AnimationState.ChangeScene:
+                    DOTween.KillAll();
+                    SelectorMethod(methodSelection);
+            break;
         }
     }
 
@@ -59,18 +81,36 @@ public class UIMenu : MonoBehaviour
 
     private void StartPosition()
     {
-        titleMenu.anchoredPosition = new Vector2(0f, 650f);
-        buttonMenu.anchoredPosition = new Vector2(0f, -650f);
+        titleMenu.anchoredPosition = new Vector2(0f, 750f);
+        buttonMenu.anchoredPosition = new Vector2(0f, -750f);
         optionsPanel.anchoredPosition = new Vector2(canvasScaler.referenceResolution.x, 0);
     }
 
-    public void ChangeScene(string scene)
+    public void SelectorMethod(bool method)
     {
+        if (method)
+        {
+            GoToLevelSelector();
+        }
+        else
+        {
+            GoToCanaFronton();
+        }
+    }
 
+    public void ChangeScene(bool method)
+    {
+        exitMenu = true;
+        methodSelection = method;
     }
 
     public void GoToLevelSelector()
     {
         ScreenMan.Me.GoToLevelSelector();
+    }
+
+    public void GoToCanaFronton()
+    {
+        ScreenMan.Me.GotoCanada();
     }
 }

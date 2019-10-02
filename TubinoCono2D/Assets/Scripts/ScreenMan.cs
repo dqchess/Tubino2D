@@ -25,5 +25,9 @@ public class ScreenMan : MonoBehaviour
     {
         SceneManager.LoadScene("Game");
     }
+    public void GotoCanada()
+    {
+        SceneManager.LoadScene("Carcel");
+    }
 
 }
