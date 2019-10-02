@@ -32,6 +32,9 @@ TextureImporter:
   - first:
       213: -4650561469437512643
     second: tubinocabeza
+  - first:
+      213: -5251226025326251629
+    second: billete
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -132,7 +135,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 765
+        y: 603
         width: 364
         height: 420
       alignment: 0
@@ -149,11 +152,32 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: billete
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 669
+        width: 187
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -5251226025326251629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: rataconpatasbrazo1
       rect:
         serializedVersion: 2
-        x: 169
-        y: 286
+        x: 697
+        y: 897
         width: 103
         height: 126
       alignment: 0
@@ -173,8 +197,8 @@ TextureImporter:
       name: rataconpatasbrazo2
       rect:
         serializedVersion: 2
-        x: 367
-        y: 1078
+        x: 802
+        y: 916
         width: 99
         height: 107
       alignment: 0
@@ -194,8 +218,8 @@ TextureImporter:
       name: rataconpatascabeza1
       rect:
         serializedVersion: 2
-        x: 274
-        y: 240
+        x: 1
+        y: 8
         width: 187
         height: 242
       alignment: 0
@@ -215,8 +239,8 @@ TextureImporter:
       name: rataconpatascabeza2
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
+        x: 190
+        y: 13
         width: 301
         height: 237
       alignment: 0
@@ -237,7 +261,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 274
-        y: 484
+        y: 322
         width: 178
         height: 279
       alignment: 0
@@ -257,8 +281,8 @@ TextureImporter:
       name: rataconpatascuerpo1
       rect:
         serializedVersion: 2
-        x: 304
-        y: 51
+        x: 367
+        y: 836
         width: 160
         height: 187
       alignment: 0
@@ -278,8 +302,8 @@ TextureImporter:
       name: rataconpatascuerpo2
       rect:
         serializedVersion: 2
-        x: 1
-        y: 256
+        x: 529
+        y: 867
         width: 166
         height: 156
       alignment: 0
@@ -299,8 +323,8 @@ TextureImporter:
       name: rataconpataspie
       rect:
         serializedVersion: 2
-        x: 367
-        y: 1015
+        x: 274
+        y: 259
         width: 78
         height: 61
       alignment: 0
@@ -321,7 +345,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 414
+        y: 252
         width: 271
         height: 349
       alignment: 0

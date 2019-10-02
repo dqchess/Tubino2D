@@ -7,6 +7,7 @@ public class Crush : MonoBehaviour
     public int life = 1;
     int  clife = 0;
     ICrusheable crusheable;
+    public bool showParticles = true;
 
     public void Initialize(ICrusheable _crusheable)
     {
@@ -17,6 +18,12 @@ public class Crush : MonoBehaviour
     {
         this.clife--;
 
+        if (showParticles)
+        {
+            ParticleSystem cono = TrashMan.spawn("moneyPa", this.transform.position+Vector3.up*2).GetComponent<ParticleSystem>();
+            cono.Play();
+        }
+        
         /*if (this.crusheable.transform.position.x < 0)
         {
             Cono cono = TrashMan.spawn("cono_r", this.transform.position + Vector3.left * 0.8f + Vector3.up * crusheable.offsetY).GetComponent<Cono>();
@@ -27,7 +34,7 @@ public class Crush : MonoBehaviour
             Cono cono = TrashMan.spawn("cono_l", this.transform.position + Vector3.right * 0.8f + Vector3.up * crusheable.offsetY).GetComponent<Cono>();
             cono.Initialize();
         }*/
-            
+
 
         if (this.clife <= 0)
         {

@@ -24,10 +24,17 @@ public class Game : MonoBehaviour
 
     public void LevelClear()
     {
-        ES3.Save<int>("money", score);
-        ui.levelClearPopup.Open();
+        if (lifes > 0)
+        {
+            ES3.Save<int>("money", score);
+            ui.levelClearPopup.Open();
+            WorldMan.Me.SaveValues(lifes, true);
+        }
+        else
+        {
 
-        WorldMan.Me.SaveValues(lifes,true);
+        }
+        
     }
 
     private void Start()
