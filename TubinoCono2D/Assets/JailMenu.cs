@@ -75,7 +75,7 @@ public class JailMenu : MonoBehaviour
     {
         titleJail.anchoredPosition = new Vector2(0f,200f);
         buttonReturn.anchoredPosition = new Vector2(200f,-150f);
-        JailParent.anchoredPosition = new Vector2(-800f,-90f);
+        JailParent.anchoredPosition = new Vector2(-800f,0);
         buttonGroup.anchoredPosition = new Vector2(0f,-150f);
     }
 
