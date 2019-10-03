@@ -4,5 +4,5 @@ using UnityEngine;
 
 public static class Constants
 {
-    public const int numLevel = 10;
+    public const int numLevel = 30;
 }

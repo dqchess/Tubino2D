@@ -4,25 +4,43 @@ using UnityEngine;
 
 public class CrushGlobal : MonoBehaviour
 {
-
+    public bool isPC;
     public LayerMask layermask;
+
     void Update()
     {
-        int i = 0;
-        while (i < Input.touchCount)
+        if (!isPC)
         {
-            Touch t = Input.GetTouch(i);
-            if (t.phase == TouchPhase.Began)
+            int i = 0;
+            while (i < Input.touchCount)
             {
-                RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint((t.position)), Vector2.zero, 0.5f, layermask);
+                Touch t = Input.GetTouch(i);
+                if (t.phase == TouchPhase.Began)
+                {
+                    RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint((t.position)), Vector2.zero, 0.5f, layermask);
+                    if (hit.collider != null)
+                    {
+                        Debug.Log("Touched it");
+                        hit.collider.gameObject.GetComponent<Crush>().OnCrush();
+                    }
+                }
+                ++i;
+            }
+        }
+        else
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint((Input.mousePosition)), Vector2.zero, 0.5f, layermask);
                 if (hit.collider != null)
                 {
                     Debug.Log("Touched it");
                     hit.collider.gameObject.GetComponent<Crush>().OnCrush();
                 }
-            }            
-            ++i;
+            }
+            
         }
+        
 
         /*if (Input.touchCount > 0)
         {

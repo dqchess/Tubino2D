@@ -38,10 +38,117 @@ public class LevelMan : MonoBehaviour
         enemyFactory.Initialize();
     }
 
-    
+
+    public Level CreateLevel1_1()
+    {
+        List<Horda> lvl1 = new List<Horda>();
+        lvl1.Add(new Horda(new int[25]
+        {
+            -1, 0, 0, 0, -1,
+            -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1
+        }));
+        lvl1.Add(new Horda(new int[25]
+        {
+            -1, 0, 3, 0, -1,
+            -1, -1, 0, -1, -1,
+            -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1
+        }));
+        lvl1.Add(new Horda(new int[25]
+        {
+            -1, 0, 0, 0, -1,
+            -1, -1, 0, -1, -1,
+            -1, 0, 0, 0, -1,
+            -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1
+        }));
+        lvl1.Add(new Horda(new int[25]
+        {
+            -1, 0, 3, 0, -1,
+            -1, -1, 3, -1, -1,
+            -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1,
+            -1, 0, -1, 0, -1
+        }));
+        lvl1.Add(new Horda(new int[25]
+        {
+            -1, 3, -1, 3, -1,
+            -1, -1, 3, -1, -1,
+            -1, -1, -1, -1, -1,
+            0, -1, -1, -1, 0,
+            0, -1, 0, -1, 0
+        }));
+        lvl1.Add(new Horda(new int[25]
+        {
+            0, 3, 0, 3, 0,
+            -1, -1, -1, -1, -1,
+            -1, -1, 3, -1, -1,
+            -1, 0, 2, 0, -1,
+            -1, 0, 0, 0, -1
+        }));
+        return new Level(lvl1);
+    }
+
+    public Level CreateLevel1_2()
+    {
+        List<Horda> lvl1 = new List<Horda>();
+        lvl1.Add(new Horda(new int[25]
+        {
+            -1, 0, 0, 0, -1,
+            -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1
+        }));
+        lvl1.Add(new Horda(new int[25]
+        {
+            -1, 0, 3, 0, -1,
+            -1, -1, 0, -1, -1,
+            -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1
+        }));
+        lvl1.Add(new Horda(new int[25]
+        {
+            -1, 0, 0, 0, -1,
+            -1, -1, 0, -1, -1,
+            -1, 0, 0, 0, -1,
+            -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1
+        }));
+        lvl1.Add(new Horda(new int[25]
+        {
+            -1, 0, 3, 0, -1,
+            -1, -1, 3, -1, -1,
+            -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1,
+            -1, 0, -1, 0, -1
+        }));
+        lvl1.Add(new Horda(new int[25]
+        {
+            -1, 3, -1, 3, -1,
+            -1, -1, 3, -1, -1,
+            -1, -1, -1, -1, -1,
+            0, -1, -1, -1, 0,
+            0, -1, 0, -1, 0
+        }));
+        lvl1.Add(new Horda(new int[25]
+        {
+            0, 3, 0, 3, 0,
+            -1, -1, -1, -1, -1,
+            -1, -1, 3, -1, -1,
+            -1, 0, 2, 0, -1,
+            -1, 0, 0, 0, -1
+        }));
+        return new Level(lvl1);
+    }
 
 
-    public Level CreateLevel1()
+    public Level CreateLevel1_Boss()
     {
         List<Horda> lvl1 = new List<Horda>();
         lvl1.Add(new Horda(new int[25] 
@@ -485,11 +592,11 @@ public class LevelMan : MonoBehaviour
         List<Horda> lvl1 = new List<Horda>();
         lvl1.Add(new Horda(new int[25]
         {
-            0, -1, 0, -1, 0,
-            0, -1, 0, -1, 0,
             -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1
+            -1, 0, 3, 0, -1,
+            -1, -1, 0, -1, -1,
+            -1, 0, 3, 0, -1,
+            -1, -1, 0, -1, -1
         }));
         lvl1.Add(new Horda(new int[25]
         {
@@ -527,7 +634,7 @@ public class LevelMan : MonoBehaviour
         {
             -1, -1, -1, -1, -1,
             -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1,
+            -1, -1, 17, -1, -1,
             -1, -1, -1, -1, -1,
             -1, -1, -1, -1, -1
         }));
@@ -540,14 +647,6 @@ public class LevelMan : MonoBehaviour
         List<Horda> lvl1 = new List<Horda>();
         lvl1.Add(new Horda(new int[25]
         {
-            0, -1, 0, -1, 0,
-            0, -1, 0, -1, 0,
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1
-        }));
-        lvl1.Add(new Horda(new int[25]
-        {
             -1, -1, -1, -1, -1,
             -1, -1, -1, -1, -1,
             -1, -1, -1, -1, -1,
@@ -583,6 +682,14 @@ public class LevelMan : MonoBehaviour
             -1, -1, -1, -1, -1,
             -1, -1, -1, -1, -1,
             -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1
+        }));
+        lvl1.Add(new Horda(new int[25]
+        {
+            -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1,
+            -1, -1, 8, -1, -1,
             -1, -1, -1, -1, -1,
             -1, -1, -1, -1, -1
         }));
@@ -595,33 +702,40 @@ public class LevelMan : MonoBehaviour
         switch (lvl)
         {
             case 1:
-                level = CreateLevel1();
+                level = CreateLevel1_1();
                 break;
             case 2:
-                level = CreateLevel2();
+                level = CreateLevel1_2();
                 break;
             case 3:
-                level = CreateLevel3();
+                level = CreateLevel1_Boss();
                 break;
-            case 4:
-                level = CreateLevel4();
+
+            case 4://3
+                level = CreateLevel2();
                 break;
             case 5:
-                level = CreateLevel5();
+                level = CreateLevel3();
                 break;
             case 6:
-                level = CreateLevel6();
+                level = CreateLevel4();
                 break;
             case 7:
-                level = CreateLevel7();
+                level = CreateLevel5();
                 break;
             case 8:
-                level = CreateLevel8();
+                level = CreateLevel6();
                 break;
             case 9:
-                level = CreateLevel9();
+                level = CreateLevel7();
                 break;
             case 10:
+                level = CreateLevel8();
+                break;
+            case 11:
+                level = CreateLevel9();
+                break;
+            case 12:
                 level = CreateLevel10();
                 break;              
             

@@ -42,7 +42,7 @@ MonoBehaviour:
       m_photoAlbumModifyUsagePermissionDescription: $(PRODUCT_NAME) saves images to
         photo library
     m_android:
-      m_storeIdentifier: 
+      m_storeIdentifier: com.BackupGames.Mataratas
   m_networkConnectivitySettings:
     m_hostAddressIPV4: 8.8.8.8
     m_hostAddressIPV6: 0:0:0:0:0:FFFF:0808:0808
