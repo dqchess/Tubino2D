@@ -34,7 +34,6 @@ public class CrushGlobal : MonoBehaviour
                 RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint((Input.mousePosition)), Vector2.zero, 0.5f, layermask);
                 if (hit.collider != null)
                 {
-                    Debug.Log("Touched it");
                     hit.collider.gameObject.GetComponent<Crush>().OnCrush();
                 }
             }

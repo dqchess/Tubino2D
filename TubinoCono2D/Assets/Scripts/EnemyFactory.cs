@@ -101,11 +101,11 @@ public class EnemyFactory: Factory
         {
             if (level.hordas[currentHorda].patterns[i] >= 0)
             {
-                if(level.hordas[currentHorda].patterns[i] == 3 || level.hordas[currentHorda].patterns[i] == 5)
+                if(level.hordas[currentHorda].patterns[i] == 3 || level.hordas[currentHorda].patterns[i] == 5 || level.hordas[currentHorda].patterns[i] == 19)
                 {
                     GameObject protestante = TrashMan.spawn(gameWeights.enemy[level.hordas[currentHorda].patterns[i]].name);
                     Protestante e = protestante.GetComponent<Protestante>();
-                    e.GetComponent<Protestante>().Initialize();
+                    e.GetComponent<Protestante>().Initialize(gameWeights.enemy[level.hordas[currentHorda].patterns[i]].parameter);
                     protestante.transform.position = initialpos + offsets[i];
                     cPulptines.Add(e);
                 }
@@ -165,6 +165,7 @@ public class EnemyFactory: Factory
             NextHorda();
     }
 
+    
 
     bool CheckEnemies()
     {
