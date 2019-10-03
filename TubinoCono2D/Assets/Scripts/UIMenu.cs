@@ -15,7 +15,7 @@ public class UIMenu : MonoBehaviour
     CanvasScaler canvasScaler;
     AnimationState state;
     bool exitMenu, methodSelection;
-
+    public ConosX3Btn conosX3Btn;
     private void Start()
     {
         canvasScaler = GetComponent<CanvasScaler>();
@@ -25,6 +25,23 @@ public class UIMenu : MonoBehaviour
         state = AnimationState.StartAnimationTitle;
 
         exitMenu = false;
+
+        conosX3Btn.Initialize(this, OnFailConoX3Video, OnCompleteConoX3Video);
+    }
+
+    public void OnFailConoX3Video()
+    {
+        conosX3Btn.GetComponent<Button>().interactable = true;
+    }
+
+    public void OnCompleteConoX3Video()
+    {
+        conosX3Btn.GetComponent<Button>().interactable = true;
+        PowerupMan.Me.AddCono(3);
+    }
+    public void OnClickConosX3()
+    {
+        conosX3Btn.GetComponent<Button>().interactable = false;
     }
 
     private void Update()
@@ -64,6 +81,8 @@ public class UIMenu : MonoBehaviour
                 }
             break;
             case AnimationState.ChangeScene:
+                    conosX3Btn.RemoveListeners();
+                    
                     DOTween.KillAll();
                     SelectorMethod(methodSelection);
             break;

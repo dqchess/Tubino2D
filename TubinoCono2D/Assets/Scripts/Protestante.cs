@@ -20,8 +20,11 @@ public class Protestante : ICrusheable
 
     public override void OnCrush()
     {
+        VibrateMan.Me.Vibrate();
         Game.Me.OnGameOver();
     }
+
+
 
     private void Update()
     {

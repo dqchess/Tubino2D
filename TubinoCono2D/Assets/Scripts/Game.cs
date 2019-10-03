@@ -20,6 +20,7 @@ public class Game : MonoBehaviour
     {
         Me = this;
         levelMan = this.GetComponent<LevelMan>();
+        AdsMan.Me.DestroyBanner();
     }
 
     public void LevelClear()
@@ -88,9 +89,9 @@ public class Game : MonoBehaviour
         if (!isPlaying)
             return;
 
-        
+        VibrateMan.Me.Vibrate();
 
-        lifes-=enemy.crush.life;
+        lifes -=enemy.crush.life;
         if (lifes <= 0)
         {
             lifes = 0;

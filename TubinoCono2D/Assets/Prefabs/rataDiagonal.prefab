@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6559117077205002161}
   - component: {fileID: 1189101755293291007}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: sombras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 6891349350499297984}
   - component: {fileID: 368560802551215981}
   - component: {fileID: 6869858217765124602}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rataDiagonal
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -114,7 +114,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2398594692358209869}
+  - {fileID: 4906161820987271413}
   - {fileID: 6559117077205002161}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -188,7 +188,7 @@ MonoBehaviour:
   speedX: 2
   factor: 1
   rb: {fileID: 368560802551215981}
-  body: {fileID: 2398594692358209868}
+  body: {fileID: 4906161820987271393}
 --- !u!50 &368560802551215981
 Rigidbody2D:
   serializedVersion: 4
@@ -236,6 +236,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: body
+      objectReference: {fileID: 0}
+    - target: {fileID: 7304756152366115306, guid: bd1176eb6bd02524eae4e548fdc10c8c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7304756152366115307, guid: bd1176eb6bd02524eae4e548fdc10c8c,
         type: 3}
@@ -292,15 +297,70 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 22812077486522503, guid: bd1176eb6bd02524eae4e548fdc10c8c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3027361583669737984, guid: bd1176eb6bd02524eae4e548fdc10c8c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2730896257045491070, guid: bd1176eb6bd02524eae4e548fdc10c8c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6471245869480449076, guid: bd1176eb6bd02524eae4e548fdc10c8c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7304756152583481999, guid: bd1176eb6bd02524eae4e548fdc10c8c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2667627631777823062, guid: bd1176eb6bd02524eae4e548fdc10c8c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181771108248369632, guid: bd1176eb6bd02524eae4e548fdc10c8c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6479429693632070968, guid: bd1176eb6bd02524eae4e548fdc10c8c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4199330344235831034, guid: bd1176eb6bd02524eae4e548fdc10c8c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091310041827439598, guid: bd1176eb6bd02524eae4e548fdc10c8c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548486810242406180, guid: bd1176eb6bd02524eae4e548fdc10c8c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd1176eb6bd02524eae4e548fdc10c8c, type: 3}
---- !u!1 &2398594692358209868 stripped
+--- !u!1 &4906161820987271393 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7304756152366115306, guid: bd1176eb6bd02524eae4e548fdc10c8c,
     type: 3}
   m_PrefabInstance: {fileID: 4906161820987271334}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &2398594692358209869 stripped
+--- !u!4 &4906161820987271413 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7304756152366115307, guid: bd1176eb6bd02524eae4e548fdc10c8c,
     type: 3}

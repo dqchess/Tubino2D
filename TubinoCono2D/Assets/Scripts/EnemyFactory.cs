@@ -41,7 +41,7 @@ public class EnemyFactory: Factory
 
     int currentHorda = 0;
     public Vector3 initialpos = new Vector3(-2,6,0);
-    public List<Vector3> offsets = new List<Vector3>() { 
+    public List<Vector3> offsets = new List<Vector3>() {
         new Vector3(0,0,0) ,
         new Vector3(1,0,0) ,
         new Vector3(2,0,0) ,
@@ -70,7 +70,9 @@ public class EnemyFactory: Factory
         new Vector3(1,8,0) ,
         new Vector3(2,8,0) ,
         new Vector3(3,8,0) ,
-        new Vector3(4,8,0)
+        new Vector3(4,8,0) ,
+
+      
     };
 
     Level level;

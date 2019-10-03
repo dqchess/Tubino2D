@@ -86,7 +86,7 @@ public class LevelMan : MonoBehaviour
         }));        
         lvl1.Add(new Horda(new int[25]
         {
-            0, 3, -1, 3, 0,
+            0, 3, 0, 3, 0,
             -1, -1, -1, -1, -1,
             -1, -1, 3, -1, -1,
             -1, 0, 2, 0, -1,

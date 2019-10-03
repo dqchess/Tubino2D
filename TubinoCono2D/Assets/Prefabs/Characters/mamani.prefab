@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5568879817790644286}
   - component: {fileID: 6618565489264559934}
   - component: {fileID: 670954354910911490}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mamani
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -150,7 +150,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 635685118977004834}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: r_foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -182,7 +182,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1768896559034559896}
   - component: {fileID: 5124247501319929285}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: sombras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +263,7 @@ GameObject:
   m_Component:
   - component: {fileID: 649166637226224224}
   - component: {fileID: 7857571891896281814}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rataconpatasbrazo1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -343,7 +343,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 607641866862224184}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: r_arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -374,7 +374,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5468892843137379008}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: l_arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -405,7 +405,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7200644872897432272}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -437,7 +437,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3469849616035670490}
   - component: {fileID: 5506007963570472084}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rataconpataspie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -518,7 +518,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8722222851397729588}
   - component: {fileID: 7796003254008223581}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rataconpatascabeza1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -599,7 +599,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5077770897479913349}
   - component: {fileID: 4238904127587935565}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mano (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -679,7 +679,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5139737413336475011}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: l_foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -711,7 +711,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3368531496560987915}
   - component: {fileID: 3746722607910059825}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rataconpataspie (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -792,7 +792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7757496858576511287}
   - component: {fileID: 7431498902053181283}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mano
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -873,7 +873,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7551278394594237092}
   - component: {fileID: 7551278394594237093}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rataconpatascuerpo1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -954,7 +954,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7551278394645207491}
   - component: {fileID: 5164872273886929720}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1010,7 +1010,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6178299428916648835}
   - component: {fileID: 3312534329052859030}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rataconpatasbrazo1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
