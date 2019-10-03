@@ -8,6 +8,7 @@ public class UILevelSelector : MonoBehaviour
 {
     public GameObject prefabItem;
     public RectTransform titleLevelSelection;
+    public RectTransform level_container;
     public RectTransform container;
     public RectTransform returnButton;
     AnimationState state;
@@ -18,7 +19,7 @@ public class UILevelSelector : MonoBehaviour
         for (int i = 0; i < Constants.numLevel; i++)
         {
             ItemLevelSelector item = GameObject.Instantiate(prefabItem).GetComponent<ItemLevelSelector>();
-            item.gameObject.transform.SetParent(container, false);
+            item.gameObject.transform.SetParent(level_container, false);
             item.Initialize(i, this);
         }
 
@@ -39,7 +40,7 @@ public class UILevelSelector : MonoBehaviour
         {
             case AnimationState.StartAnimationTitle:
                 titleLevelSelection.DOAnchorPosY(-125f, 0.25f, true);
-                container.DOAnchorPosY(-695f, 0.25f, true);
+                container.DOAnchorPosY(-675f, 0.25f, true);
                 state = AnimationState.EndAnimationTitle;
             break;
             case AnimationState.EndAnimationTitle:

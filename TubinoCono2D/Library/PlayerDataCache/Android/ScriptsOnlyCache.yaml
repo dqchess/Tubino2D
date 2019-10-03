@@ -63,8 +63,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -112,35 +114,39 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9666}
+      Script: {instanceID: 10228}
     - Class: 114
-      Script: {instanceID: 9742}
+      Script: {instanceID: 10346}
     - Class: 114
-      Script: {instanceID: 9784}
+      Script: {instanceID: 10410}
     - Class: 114
-      Script: {instanceID: 9882}
+      Script: {instanceID: 10576}
     - Class: 114
-      Script: {instanceID: 9936}
+      Script: {instanceID: 10660}
     - Class: 114
-      Script: {instanceID: 10338}
+      Script: {instanceID: 10922}
     - Class: 114
-      Script: {instanceID: 10480}
+      Script: {instanceID: 11332}
     - Class: 114
-      Script: {instanceID: 11032}
+      Script: {instanceID: 11538}
     - Class: 114
-      Script: {instanceID: 11202}
+      Script: {instanceID: 12470}
     - Class: 114
-      Script: {instanceID: 11238}
+      Script: {instanceID: 12682}
     - Class: 114
-      Script: {instanceID: 11318}
+      Script: {instanceID: 12754}
     - Class: 114
-      Script: {instanceID: 11660}
+      Script: {instanceID: 12800}
     - Class: 114
-      Script: {instanceID: 11934}
+      Script: {instanceID: 12938}
     - Class: 114
-      Script: {instanceID: 12174}
+      Script: {instanceID: 13506}
     - Class: 114
-      Script: {instanceID: 12210}
+      Script: {instanceID: 13968}
+    - Class: 114
+      Script: {instanceID: 14344}
+    - Class: 114
+      Script: {instanceID: 14396}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -185,89 +191,91 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9666}
+      Script: {instanceID: 10228}
     - Class: 114
-      Script: {instanceID: 9698}
+      Script: {instanceID: 10278}
     - Class: 114
-      Script: {instanceID: 9736}
+      Script: {instanceID: 10332}
     - Class: 114
-      Script: {instanceID: 9784}
+      Script: {instanceID: 10410}
     - Class: 114
-      Script: {instanceID: 9836}
+      Script: {instanceID: 10508}
     - Class: 114
-      Script: {instanceID: 9852}
+      Script: {instanceID: 10534}
     - Class: 114
-      Script: {instanceID: 9882}
+      Script: {instanceID: 10576}
     - Class: 114
-      Script: {instanceID: 9902}
+      Script: {instanceID: 10606}
     - Class: 114
-      Script: {instanceID: 9936}
+      Script: {instanceID: 10660}
     - Class: 114
-      Script: {instanceID: 9942}
+      Script: {instanceID: 10666}
     - Class: 114
-      Script: {instanceID: 10098}
+      Script: {instanceID: 10922}
     - Class: 114
-      Script: {instanceID: 10100}
+      Script: {instanceID: 10924}
     - Class: 114
-      Script: {instanceID: 10274}
+      Script: {instanceID: 10926}
     - Class: 114
-      Script: {instanceID: 10286}
+      Script: {instanceID: 11214}
     - Class: 114
-      Script: {instanceID: 10362}
+      Script: {instanceID: 11232}
     - Class: 114
-      Script: {instanceID: 10418}
+      Script: {instanceID: 11360}
     - Class: 114
-      Script: {instanceID: 10456}
+      Script: {instanceID: 11438}
     - Class: 114
-      Script: {instanceID: 10480}
+      Script: {instanceID: 11494}
     - Class: 114
-      Script: {instanceID: 10510}
+      Script: {instanceID: 11538}
     - Class: 114
-      Script: {instanceID: 10716}
+      Script: {instanceID: 11584}
     - Class: 114
-      Script: {instanceID: 10760}
+      Script: {instanceID: 11920}
     - Class: 114
-      Script: {instanceID: 10984}
+      Script: {instanceID: 12006}
     - Class: 114
-      Script: {instanceID: 11026}
+      Script: {instanceID: 12400}
     - Class: 114
-      Script: {instanceID: 11032}
+      Script: {instanceID: 12460}
     - Class: 114
-      Script: {instanceID: 11154}
+      Script: {instanceID: 12470}
     - Class: 114
-      Script: {instanceID: 11202}
+      Script: {instanceID: 12682}
     - Class: 114
-      Script: {instanceID: 11260}
+      Script: {instanceID: 12754}
     - Class: 114
-      Script: {instanceID: 11266}
+      Script: {instanceID: 12842}
     - Class: 114
-      Script: {instanceID: 11318}
+      Script: {instanceID: 12862}
     - Class: 114
-      Script: {instanceID: 11402}
+      Script: {instanceID: 12914}
     - Class: 114
-      Script: {instanceID: 11406}
+      Script: {instanceID: 12938}
     - Class: 114
-      Script: {instanceID: 11410}
+      Script: {instanceID: 13072}
     - Class: 114
-      Script: {instanceID: 11660}
+      Script: {instanceID: 13078}
     - Class: 114
-      Script: {instanceID: 11826}
+      Script: {instanceID: 13082}
     - Class: 114
-      Script: {instanceID: 11862}
+      Script: {instanceID: 13506}
     - Class: 114
-      Script: {instanceID: 11910}
+      Script: {instanceID: 13802}
     - Class: 114
-      Script: {instanceID: 12092}
+      Script: {instanceID: 13848}
     - Class: 114
-      Script: {instanceID: 12094}
+      Script: {instanceID: 13932}
     - Class: 114
-      Script: {instanceID: 12174}
+      Script: {instanceID: 14210}
     - Class: 114
-      Script: {instanceID: 12176}
+      Script: {instanceID: 14212}
     - Class: 114
-      Script: {instanceID: 12210}
+      Script: {instanceID: 14344}
     - Class: 114
-      Script: {instanceID: 13234}
+      Script: {instanceID: 14346}
+    - Class: 114
+      Script: {instanceID: 14396}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -314,37 +322,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 576}
+      Script: {instanceID: 1132}
     - Class: 114
-      Script: {instanceID: 9784}
+      Script: {instanceID: 10410}
     - Class: 114
-      Script: {instanceID: 10148}
+      Script: {instanceID: 10578}
     - Class: 114
-      Script: {instanceID: 10502}
+      Script: {instanceID: 10906}
     - Class: 114
-      Script: {instanceID: 10932}
+      Script: {instanceID: 11014}
     - Class: 114
-      Script: {instanceID: 11010}
+      Script: {instanceID: 11392}
     - Class: 114
-      Script: {instanceID: 11034}
+      Script: {instanceID: 11568}
     - Class: 114
-      Script: {instanceID: 11202}
+      Script: {instanceID: 12306}
     - Class: 114
-      Script: {instanceID: 12118}
+      Script: {instanceID: 12430}
     - Class: 114
-      Script: {instanceID: 12210}
+      Script: {instanceID: 12472}
     - Class: 114
-      Script: {instanceID: 13138}
+      Script: {instanceID: 12754}
     - Class: 114
-      Script: {instanceID: 13156}
+      Script: {instanceID: 12854}
     - Class: 114
-      Script: {instanceID: 13232}
+      Script: {instanceID: 13456}
     - Class: 114
-      Script: {instanceID: 13256}
+      Script: {instanceID: 13918}
     - Class: 114
-      Script: {instanceID: 21774}
+      Script: {instanceID: 14252}
     - Class: 114
-      Script: {instanceID: 22338}
+      Script: {instanceID: 14396}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -371,31 +379,31 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9666}
+      Script: {instanceID: 10228}
     - Class: 114
-      Script: {instanceID: 9784}
+      Script: {instanceID: 10410}
     - Class: 114
-      Script: {instanceID: 9882}
+      Script: {instanceID: 10576}
     - Class: 114
-      Script: {instanceID: 9936}
+      Script: {instanceID: 10660}
     - Class: 114
-      Script: {instanceID: 10008}
+      Script: {instanceID: 10786}
     - Class: 114
-      Script: {instanceID: 10480}
+      Script: {instanceID: 11538}
     - Class: 114
-      Script: {instanceID: 10680}
+      Script: {instanceID: 11854}
     - Class: 114
-      Script: {instanceID: 11032}
+      Script: {instanceID: 12470}
     - Class: 114
-      Script: {instanceID: 11202}
+      Script: {instanceID: 12754}
     - Class: 114
-      Script: {instanceID: 11660}
+      Script: {instanceID: 13506}
     - Class: 114
-      Script: {instanceID: 11934}
+      Script: {instanceID: 13968}
     - Class: 114
-      Script: {instanceID: 12174}
+      Script: {instanceID: 14344}
     - Class: 114
-      Script: {instanceID: 12210}
+      Script: {instanceID: 14396}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -434,39 +442,41 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9666}
+      Script: {instanceID: 10228}
     - Class: 114
-      Script: {instanceID: 9784}
+      Script: {instanceID: 10410}
     - Class: 114
-      Script: {instanceID: 9882}
+      Script: {instanceID: 10576}
     - Class: 114
-      Script: {instanceID: 9936}
+      Script: {instanceID: 10592}
     - Class: 114
-      Script: {instanceID: 10096}
+      Script: {instanceID: 10644}
     - Class: 114
-      Script: {instanceID: 10480}
+      Script: {instanceID: 10660}
     - Class: 114
-      Script: {instanceID: 11032}
+      Script: {instanceID: 10922}
     - Class: 114
-      Script: {instanceID: 11154}
+      Script: {instanceID: 11538}
     - Class: 114
-      Script: {instanceID: 11202}
+      Script: {instanceID: 12470}
     - Class: 114
-      Script: {instanceID: 11226}
+      Script: {instanceID: 12682}
     - Class: 114
-      Script: {instanceID: 11318}
+      Script: {instanceID: 12754}
     - Class: 114
-      Script: {instanceID: 11660}
+      Script: {instanceID: 12782}
     - Class: 114
-      Script: {instanceID: 11910}
+      Script: {instanceID: 12938}
     - Class: 114
-      Script: {instanceID: 12174}
+      Script: {instanceID: 13506}
     - Class: 114
-      Script: {instanceID: 12210}
+      Script: {instanceID: 13932}
     - Class: 114
-      Script: {instanceID: 13140}
+      Script: {instanceID: 14212}
     - Class: 114
-      Script: {instanceID: 13142}
+      Script: {instanceID: 14344}
+    - Class: 114
+      Script: {instanceID: 14396}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -504,6 +514,18 @@ ScriptsOnlyBuild:
     className: BounceMov
   - hash:
       serializedVersion: 2
+      Hash: 0c89c66d69bd9c2813311c020c89bf8e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VoxelBusters.NativePlugins.Demo
+    className: NPDisabledFeatureDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 0c89c66d69bd9c2813311c020c89bf8e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VoxelBusters.NativePlugins.Demo
+    className: NPDemoBase
+  - hash:
+      serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -514,6 +536,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.NativePlugins
+    className: GameServices
   - hash:
       serializedVersion: 2
       Hash: 17fbcb204a0c56d52624dea67855859a
@@ -532,6 +560,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: 
     className: ES2EditorWindowStyle
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.Advertisements.dll
+    namespaceName: UnityEngine.Advertisements
+    className: Placeholder
   - hash:
       serializedVersion: 2
       Hash: ad9c147730a238ee7bc0104c1db89dd0
@@ -582,16 +616,34 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AdsMan
+  - hash:
+      serializedVersion: 2
       Hash: 499fd23433e68e265d153aa6b95d0047
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Scrollbar
   - hash:
       serializedVersion: 2
+      Hash: e17204a946e8ba91e69421b3703917af
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BannerMainMenu
+  - hash:
+      serializedVersion: 2
       Hash: e707931b348398b0ae8cc2ae8f135b4b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Tubino
+  - hash:
+      serializedVersion: 2
+      Hash: ccf89440a046d971ef6083d8fcb8056c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VoxelBusters.NativePlugins.Demo
+    className: UtilityDemo
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -604,6 +656,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ConosX3Btn
   - hash:
       serializedVersion: 2
       Hash: 8e0313c6f5e2ce35991fec2d64f8eaab
@@ -630,6 +688,24 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AdButton
+  - hash:
+      serializedVersion: 2
+      Hash: 0c89c66d69bd9c2813311c020c89bf8e
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.Utility
+    className: GUIDialog
+  - hash:
+      serializedVersion: 2
+      Hash: 5ed0968402ee4cccb9ac74394ece3a1b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VoxelBusters.NativePlugins.Demo
+    className: NotificationDemo
+  - hash:
+      serializedVersion: 2
       Hash: a8d48b95efd666ad3fe0d9836f60cfd9
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: ES3Internal
@@ -648,6 +724,12 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.NativePlugins
+    className: WebView
+  - hash:
+      serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -658,6 +740,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 45aae4efa102fd4f99faf0c96c24a0c2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PowerupMan
   - hash:
       serializedVersion: 2
       Hash: 0dbc3be398b4869a5c8d0d8481ee402c
@@ -690,6 +778,18 @@ ScriptsOnlyBuild:
     className: ES2AutoSaveGlobalManager
   - hash:
       serializedVersion: 2
+      Hash: 9ed30d3e4ed97b08b2727c87ffdf7d38
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VoxelBusters.NativePlugins.Demo
+    className: MediaLibraryDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.Utility
+    className: GUIScrollView
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -715,6 +815,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RateMyAppAdvanced
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RectMask2D
@@ -724,6 +830,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.NativePlugins
+    className: NPEditorManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -738,10 +850,22 @@ ScriptsOnlyBuild:
     className: GameWeights
   - hash:
       serializedVersion: 2
+      Hash: 0c89c66d69bd9c2813311c020c89bf8e
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.UASUtils.Demo
+    className: DemoGUIWindow
+  - hash:
+      serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.Utility.UnityGUI.MENU
+    className: GUIMenuBase
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -760,6 +884,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 0d3e551989117aa46622ae699307a2cc
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.NativePlugins.Internal
+    className: EditorGameCenter
   - hash:
       serializedVersion: 2
       Hash: f64d80c7e8ae39d46b4412c6c0d9e1f5
@@ -822,6 +952,24 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.NativePlugins
+    className: Utility
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.Utility
+    className: UnityGUILayoutUtility
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.Utility
+    className: PlayerSettings
+  - hash:
+      serializedVersion: 2
       Hash: dd188a0aae703de864094cbcff870981
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -852,10 +1000,28 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: 0c89c66d69bd9c2813311c020c89bf8e
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.NativePlugins.Internal
+    className: EditorGameCenterUI
+  - hash:
+      serializedVersion: 2
+      Hash: 0c89c66d69bd9c2813311c020c89bf8e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VoxelBusters.NativePlugins.Demo
+    className: CloudServicesDemo
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MoneyFly
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.Utility.UnityGUI.MENU
+    className: GUIMainMenu
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -865,9 +1031,69 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.NativePlugins.Internal
+    className: Constants
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.NativePlugins
+    className: UIAndroid
+  - hash:
+      serializedVersion: 2
+      Hash: 0c89c66d69bd9c2813311c020c89bf8e
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.Utility
+    className: GUIPromptDialog
+  - hash:
+      serializedVersion: 2
+      Hash: 662aa60ea42bf0652f762e23807cc720
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VoxelBusters.NativePlugins.Demo
+    className: UIDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 0c89c66d69bd9c2813311c020c89bf8e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VoxelBusters.NativePlugins.Demo
+    className: NetworkConnectivityDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 54cced885152d06928d346de2f106c9d
+    assemblyName: UnityEngine.Advertisements.dll
+    namespaceName: UnityEngine.Advertisements
+    className: Banner
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.NativePlugins
+    className: MIMEType
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.Utility
+    className: NativeBinding
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.NativePlugins
+    className: SharingEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 0c89c66d69bd9c2813311c020c89bf8e
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.UASUtils.Demo
+    className: DemoMainMenu
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -886,6 +1112,18 @@ ScriptsOnlyBuild:
     assemblyName: DOTween.dll
     namespaceName: DG.Tweening.Core
     className: DOTweenSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.Monetization.dll
+    namespaceName: UnityEngine.Monetization
+    className: Placeholder
+  - hash:
+      serializedVersion: 2
+      Hash: 0c89c66d69bd9c2813311c020c89bf8e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VoxelBusters.NativePlugins.Demo
+    className: BillingDemo
   - hash:
       serializedVersion: 2
       Hash: 696ebbb29d6d0fd7176a8c03f850b728
@@ -930,6 +1168,12 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
+      Hash: 0c89c66d69bd9c2813311c020c89bf8e
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.UASUtils.Demo
+    className: DemoSubMenu
+  - hash:
+      serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -960,6 +1204,18 @@ ScriptsOnlyBuild:
     className: Game
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.NativePlugins
+    className: UI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VibrateMan
+  - hash:
+      serializedVersion: 2
       Hash: 0cd2c56ba145102c3b49609481919b45
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -976,6 +1232,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.UASUtils.Internal
+    className: Constants
+  - hash:
+      serializedVersion: 2
+      Hash: 554cb911d5b60c4fc1dddcb9d1296566
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CrushGlobal
   - hash:
       serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
@@ -1008,6 +1276,12 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.Utility.Demo
+    className: JSONDemo
+  - hash:
+      serializedVersion: 2
       Hash: 63a48292b9d2d5fee19a468d5cc6abfa
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1026,6 +1300,18 @@ ScriptsOnlyBuild:
     className: Crush
   - hash:
       serializedVersion: 2
+      Hash: 0c89c66d69bd9c2813311c020c89bf8e
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.Utility
+    className: GUIModalWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.NativePlugins
+    className: GameServicesAndroid
+  - hash:
+      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1038,10 +1324,28 @@ ScriptsOnlyBuild:
     className: ES2AutoSaveManager
   - hash:
       serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.Utility
+    className: PromptWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.NativePlugins
+    className: Sharing
+  - hash:
+      serializedVersion: 2
       Hash: 3e0b038aab6b69a9e77d419f95729ce3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UniqueObjectManager
+  - hash:
+      serializedVersion: 2
+      Hash: c8a4c0b5de21ecb5e093e0131062bc1b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VoxelBusters.NativePlugins.Demo
+    className: WebViewDemo
   - hash:
       serializedVersion: 2
       Hash: 3b760e6526e13f7504f59e210145899a
@@ -1050,10 +1354,34 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: NPBinding
+  - hash:
+      serializedVersion: 2
+      Hash: daf3b3e269f3dbf3686b8088c4617f71
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.Utility
+    className: DownloadTextureDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Initializer
+  - hash:
+      serializedVersion: 2
       Hash: f336e086360abe49a3323e5f1583c35a
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 844411db35e589a1d90b371bf3e2b96c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GooglePlayMan
   - hash:
       serializedVersion: 2
       Hash: ae83e830e7a90c0aff918c4c2e520825
@@ -1068,16 +1396,58 @@ ScriptsOnlyBuild:
     className: UniqueGameLogic
   - hash:
       serializedVersion: 2
+      Hash: 4056b61b600ab1a5c9aa6fc3de6ecd2a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VoxelBusters.NativePlugins.Demo
+    className: TwitterDemo
+  - hash:
+      serializedVersion: 2
       Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.NativePlugins
+    className: SharingAndroid
+  - hash:
+      serializedVersion: 2
       Hash: 855ffd816d20f043011bcb1dce00dfd1
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: 
     className: ES2AutoSave
+  - hash:
+      serializedVersion: 2
+      Hash: ba64394078fbf92cf21fc7d8426a5cd9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VoxelBusters.NativePlugins.Demo
+    className: SharingDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 5ed0968402ee4cccb9ac74394ece3a1b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VoxelBusters.NativePlugins.Demo
+    className: RemoteNotificationTest
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.NativePlugins
+    className: UIEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 0c89c66d69bd9c2813311c020c89bf8e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VoxelBusters.NativePlugins.Demo
+    className: AddressBookDemo
+  - hash:
+      serializedVersion: 2
+      Hash: d19435c0ca83a75355b6291641ca009b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VoxelBusters.NativePlugins.Demo
+    className: GameServicesDemo
   - hash:
       serializedVersion: 2
       Hash: 36d084493de615041ab8ea5af42bf919
@@ -1104,6 +1474,12 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
+      Hash: 18c8ef7589c28a8fe9af9bfb0fd2a2a0
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.NativePlugins
+    className: NPSettings
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1114,6 +1490,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UILevelSelector
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.Advertisements.dll
+    namespaceName: UnityEngine.Advertisements
+    className: CallbackExecutor
   - hash:
       serializedVersion: 2
       Hash: df434544c9f7b33d1cc7e635b180d279
@@ -1129,6 +1511,18 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VoxelBusters.NativePlugins.Demo
+    className: Utility
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.NativePlugins
+    className: PlatformBindingHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayModeRunnerCallback
@@ -1138,6 +1532,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VoxelBusters.NativePlugins
+    className: GameServicesEditor
   - hash:
       serializedVersion: 2
       Hash: 8c6a0dc26b526bdb8f5f8c3b8f1e45c1
@@ -1218,414 +1618,6 @@ ScriptsOnlyBuild:
     className: ES3ReferenceMgr
   - hash:
       serializedVersion: 2
-      Hash: 7072231382eb3c4871b3dd75ad0227e1
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Slider
-  - hash:
-      serializedVersion: 2
-      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: ToggleGroup
-  - hash:
-      serializedVersion: 2
-      Hash: c3d3430df9e3ea95e3e3d587961390fb
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 9228c01e2f63fe1e6321ae79ea332442
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MyExampleScript
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements
-    className: Placeholder
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AdsMan
-  - hash:
-      serializedVersion: 2
-      Hash: e17204a946e8ba91e69421b3703917af
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BannerMainMenu
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ConosX3Btn
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AdButton
-  - hash:
-      serializedVersion: 2
-      Hash: 45aae4efa102fd4f99faf0c96c24a0c2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PowerupMan
-  - hash:
-      serializedVersion: 2
-      Hash: 54cced885152d06928d346de2f106c9d
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements
-    className: Banner
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Monetization.dll
-    namespaceName: UnityEngine.Monetization
-    className: Placeholder
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: VibrateMan
-  - hash:
-      serializedVersion: 2
-      Hash: b6014b6c4f7f8849f6c1476bb8ae6d00
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CrushGlobal
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Initializer
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements
-    className: CallbackExecutor
-  - hash:
-      serializedVersion: 2
-      Hash: 0c89c66d69bd9c2813311c020c89bf8e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: VoxelBusters.NativePlugins.Demo
-    className: NPDisabledFeatureDemo
-  - hash:
-      serializedVersion: 2
-      Hash: 0c89c66d69bd9c2813311c020c89bf8e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: VoxelBusters.NativePlugins.Demo
-    className: NPDemoBase
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.NativePlugins
-    className: GameServices
-  - hash:
-      serializedVersion: 2
-      Hash: ccf89440a046d971ef6083d8fcb8056c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: VoxelBusters.NativePlugins.Demo
-    className: UtilityDemo
-  - hash:
-      serializedVersion: 2
-      Hash: 0c89c66d69bd9c2813311c020c89bf8e
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.Utility
-    className: GUIDialog
-  - hash:
-      serializedVersion: 2
-      Hash: 5ed0968402ee4cccb9ac74394ece3a1b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: VoxelBusters.NativePlugins.Demo
-    className: NotificationDemo
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.NativePlugins
-    className: WebView
-  - hash:
-      serializedVersion: 2
-      Hash: 9ed30d3e4ed97b08b2727c87ffdf7d38
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: VoxelBusters.NativePlugins.Demo
-    className: MediaLibraryDemo
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.Utility
-    className: GUIScrollView
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: RateMyAppAdvanced
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.NativePlugins
-    className: NPEditorManager
-  - hash:
-      serializedVersion: 2
-      Hash: 0c89c66d69bd9c2813311c020c89bf8e
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.UASUtils.Demo
-    className: DemoGUIWindow
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.Utility.UnityGUI.MENU
-    className: GUIMenuBase
-  - hash:
-      serializedVersion: 2
-      Hash: 0d3e551989117aa46622ae699307a2cc
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.NativePlugins.Internal
-    className: EditorGameCenter
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.NativePlugins
-    className: Utility
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.Utility
-    className: UnityGUILayoutUtility
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.Utility
-    className: PlayerSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 0c89c66d69bd9c2813311c020c89bf8e
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.NativePlugins.Internal
-    className: EditorGameCenterUI
-  - hash:
-      serializedVersion: 2
-      Hash: 0c89c66d69bd9c2813311c020c89bf8e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: VoxelBusters.NativePlugins.Demo
-    className: CloudServicesDemo
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.Utility.UnityGUI.MENU
-    className: GUIMainMenu
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.NativePlugins.Internal
-    className: Constants
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.NativePlugins
-    className: UIAndroid
-  - hash:
-      serializedVersion: 2
-      Hash: 0c89c66d69bd9c2813311c020c89bf8e
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.Utility
-    className: GUIPromptDialog
-  - hash:
-      serializedVersion: 2
-      Hash: 662aa60ea42bf0652f762e23807cc720
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: VoxelBusters.NativePlugins.Demo
-    className: UIDemo
-  - hash:
-      serializedVersion: 2
-      Hash: 0c89c66d69bd9c2813311c020c89bf8e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: VoxelBusters.NativePlugins.Demo
-    className: NetworkConnectivityDemo
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.NativePlugins
-    className: MIMEType
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.Utility
-    className: NativeBinding
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.NativePlugins
-    className: SharingEditor
-  - hash:
-      serializedVersion: 2
-      Hash: 0c89c66d69bd9c2813311c020c89bf8e
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.UASUtils.Demo
-    className: DemoMainMenu
-  - hash:
-      serializedVersion: 2
-      Hash: 0c89c66d69bd9c2813311c020c89bf8e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: VoxelBusters.NativePlugins.Demo
-    className: BillingDemo
-  - hash:
-      serializedVersion: 2
-      Hash: 0c89c66d69bd9c2813311c020c89bf8e
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.UASUtils.Demo
-    className: DemoSubMenu
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.NativePlugins
-    className: UI
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.UASUtils.Internal
-    className: Constants
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.Utility.Demo
-    className: JSONDemo
-  - hash:
-      serializedVersion: 2
-      Hash: 0c89c66d69bd9c2813311c020c89bf8e
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.Utility
-    className: GUIModalWindow
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.NativePlugins
-    className: GameServicesAndroid
-  - hash:
-      serializedVersion: 2
-      Hash: cd0ecdca0166232906c6f2df9dddc3d3
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.Utility
-    className: PromptWindow
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.NativePlugins
-    className: Sharing
-  - hash:
-      serializedVersion: 2
-      Hash: c8a4c0b5de21ecb5e093e0131062bc1b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: VoxelBusters.NativePlugins.Demo
-    className: WebViewDemo
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: 
-    className: NPBinding
-  - hash:
-      serializedVersion: 2
-      Hash: daf3b3e269f3dbf3686b8088c4617f71
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.Utility
-    className: DownloadTextureDemo
-  - hash:
-      serializedVersion: 2
-      Hash: 4056b61b600ab1a5c9aa6fc3de6ecd2a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: VoxelBusters.NativePlugins.Demo
-    className: TwitterDemo
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.NativePlugins
-    className: SharingAndroid
-  - hash:
-      serializedVersion: 2
-      Hash: ba64394078fbf92cf21fc7d8426a5cd9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: VoxelBusters.NativePlugins.Demo
-    className: SharingDemo
-  - hash:
-      serializedVersion: 2
-      Hash: 5ed0968402ee4cccb9ac74394ece3a1b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: VoxelBusters.NativePlugins.Demo
-    className: RemoteNotificationTest
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.NativePlugins
-    className: UIEditor
-  - hash:
-      serializedVersion: 2
-      Hash: 0c89c66d69bd9c2813311c020c89bf8e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: VoxelBusters.NativePlugins.Demo
-    className: AddressBookDemo
-  - hash:
-      serializedVersion: 2
-      Hash: d19435c0ca83a75355b6291641ca009b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: VoxelBusters.NativePlugins.Demo
-    className: GameServicesDemo
-  - hash:
-      serializedVersion: 2
-      Hash: 18c8ef7589c28a8fe9af9bfb0fd2a2a0
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.NativePlugins
-    className: NPSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: VoxelBusters.NativePlugins.Demo
-    className: Utility
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.NativePlugins
-    className: PlatformBindingHelper
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: VoxelBusters.NativePlugins
-    className: GameServicesEditor
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: VoxelBusters.Utility.UnityGUI.MENU
@@ -1636,6 +1628,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: VoxelBusters.UASUtils.Internal
     className: UpdatePromptWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 7072231382eb3c4871b3dd75ad0227e1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1650,10 +1654,16 @@ ScriptsOnlyBuild:
     className: GUIAlertDialog
   - hash:
       serializedVersion: 2
-      Hash: 844411db35e589a1d90b371bf3e2b96c
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 9228c01e2f63fe1e6321ae79ea332442
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: GooglePlayMan
+    className: MyExampleScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/InitScreen.unity
@@ -1661,4 +1671,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/LevelSelector.unity
   - Assets/Scenes/Game.unity
   - Assets/Scenes/Carcel.unity
-  playerPath: D:/bherring/unity_projects/Tubino2D/TubinoCono2D/Builds/apk1.apk
+  playerPath: D:/Proyectos/Tubino2D/TubinoCono2D/Builds/apk1.apk

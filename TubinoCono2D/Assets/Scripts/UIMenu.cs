@@ -69,20 +69,19 @@ public class UIMenu : MonoBehaviour
             case AnimationState.EndAnimationButton:
                 if (exitMenu)
                 {
-                    titleMenu.DOAnchorPosY(800f, 0.25f, true);
-                    buttonMenu.DOAnchorPosY(-800f, 0.25f, true);
+                    titleMenu.DOAnchorPosY(950f, 0.25f, true);
+                    buttonMenu.DOAnchorPosY(-950f, 0.25f, true);
                     state = AnimationState.ExitAnimationMenu;
                 }
             break;
             case AnimationState.ExitAnimationMenu:
-                if (titleMenu.anchoredPosition.y == 800f)
+                if (titleMenu.anchoredPosition.y == 950f)
                 {
                     state = AnimationState.ChangeScene;
                 }
             break;
             case AnimationState.ChangeScene:
                     conosX3Btn.RemoveListeners();
-                    
                     DOTween.KillAll();
                     SelectorMethod(methodSelection);
             break;

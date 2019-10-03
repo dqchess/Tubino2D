@@ -26,23 +26,23 @@ public class JailMenu : MonoBehaviour
         switch(state)
         {
             case AnimationState.StartAnimationTitle:
-                titleJail.DOAnchorPosY(-268f, 0.25f, true);
+                titleJail.DOAnchorPosY(-150f, 0.25f, true);
                 JailParent.DOAnchorPosX(0f, 0.25f, true);
                 buttonGroup.DOAnchorPosY(150f, 0.25f, true);
                 state = AnimationState.EndAnimationTitle;
             break;
             case AnimationState.EndAnimationTitle:
-                if (titleJail.anchoredPosition.y == -268f)
+                if (titleJail.anchoredPosition.y == -150f)
                 {
                     titleJail.DOShakeAnchorPos(0.25f, 25f, 75, 360);
                     JailParent.DOShakeAnchorPos(0.25f, 25f, 75, 360);
                     buttonGroup.DOShakeAnchorPos(0.25f, 25f, 75, 360);
-                    buttonReturn.DOAnchorPosX(-200f, 0.25f, true);
+                    buttonReturn.DOAnchorPosX(-150f, 0.25f, true);
                     state = AnimationState.StartAnimationButton;
                 }
             break;
             case AnimationState.StartAnimationButton:
-                if (buttonReturn.anchoredPosition.x == -200f)
+                if (buttonReturn.anchoredPosition.x == -150f)
                 {
                     buttonReturn.DOShakeAnchorPos(0.25f, 25f, 75, 360);
                     state = AnimationState.EndAnimationButton;
@@ -52,14 +52,14 @@ public class JailMenu : MonoBehaviour
                 if (exitLevel)
                 {
                     buttonReturn.DOAnchorPosY(150f, 0.15f, true);
-                    titleJail.DOAnchorPosY(200f, 0.25f, true);
-                    JailParent.DOAnchorPosX(800f, 0.25f, true);
-                    buttonGroup.DOAnchorPosY(-150f, 0.25f, true);
+                    titleJail.DOAnchorPosY(500f, 0.25f, true);
+                    JailParent.DOAnchorPosX(1000f, 0.25f, true);
+                    buttonGroup.DOAnchorPosY(-350f, 0.25f, true);
                     state = AnimationState.ExitAnimationMenu;
                 }
             break;
             case AnimationState.ExitAnimationMenu:
-                if (titleJail.anchoredPosition.y == 200f)
+                if (titleJail.anchoredPosition.y == 500f)
                 {
                     state = AnimationState.ChangeScene;
                 }
