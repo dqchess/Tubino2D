@@ -63,10 +63,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -87,6 +85,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Mask
     - UnityEngine.UI.Outline
+    - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Text
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
@@ -389,9 +389,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10786}
     - Class: 114
+      Script: {instanceID: 11128}
+    - Class: 114
       Script: {instanceID: 11538}
     - Class: 114
       Script: {instanceID: 11854}
+    - Class: 114
+      Script: {instanceID: 11978}
     - Class: 114
       Script: {instanceID: 12470}
     - Class: 114
@@ -1186,7 +1190,7 @@ ScriptsOnlyBuild:
     className: ES3InspectorInfo
   - hash:
       serializedVersion: 2
-      Hash: 8fba3ec207f6307d0d6aa9eeda58e920
+      Hash: c7be4091324422128f163969093dae2b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIMenu
@@ -1282,7 +1286,7 @@ ScriptsOnlyBuild:
     className: JSONDemo
   - hash:
       serializedVersion: 2
-      Hash: 63a48292b9d2d5fee19a468d5cc6abfa
+      Hash: 18a0392addf3987e1073fd96f64893da
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIGameScreen
@@ -1486,7 +1490,7 @@ ScriptsOnlyBuild:
     className: Cono
   - hash:
       serializedVersion: 2
-      Hash: 9781093251ec9686241c788a679c7fd3
+      Hash: da673289638599396505f443e4bac50d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UILevelSelector

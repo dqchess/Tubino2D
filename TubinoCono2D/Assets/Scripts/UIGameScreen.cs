@@ -20,7 +20,6 @@ public class UIGameScreen : MonoBehaviour
 
     public void OnClickPause()
     {
-        ExitGameAnimation();
         if(Game.Me.isPlaying)
             pausePopup.Open();
     }

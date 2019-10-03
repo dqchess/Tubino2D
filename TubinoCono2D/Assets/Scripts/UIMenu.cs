@@ -12,6 +12,7 @@ public class UIMenu : MonoBehaviour
     public RectTransform titleMenu;
     public RectTransform buttonMenu;
     public RectTransform optionsPanel;
+    public RectTransform cretidPanel;
     CanvasScaler canvasScaler;
     AnimationState state;
     bool exitMenu, methodSelection;
@@ -100,11 +101,24 @@ public class UIMenu : MonoBehaviour
         menuParent.DOAnchorPosX(0, 0.25f, true);
     }
 
+    public void ShowCredits()
+    {
+        optionsPanel.DOAnchorPosX(-canvasScaler.referenceResolution.x, 0.25f, true);
+        cretidPanel.DOAnchorPosX(0, 0.25f, true);
+    }
+
+    public void HiddenCredits()
+    {
+        optionsPanel.DOAnchorPosX(0, 0.25f, true);
+        cretidPanel.DOAnchorPosX(canvasScaler.referenceResolution.x, 0.25f, true);
+    }
+
     private void StartPosition()
     {
         titleMenu.anchoredPosition = new Vector2(0f, 750f);
         buttonMenu.anchoredPosition = new Vector2(0f, -750f);
         optionsPanel.anchoredPosition = new Vector2(canvasScaler.referenceResolution.x, 0);
+        cretidPanel.anchoredPosition = new Vector2(canvasScaler.referenceResolution.x, 0);
     }
 
     private void GoToLevelSelector()
