@@ -80,6 +80,7 @@
      <Compile Include="Assets\Scripts\AdsButtons\AdButton.cs" />
      <Compile Include="Assets\Scripts\AdsButtons\ConosX3Btn.cs" />
      <Compile Include="Assets\Scripts\AdsMan.cs" />
+     <Compile Include="Assets\Scripts\AudioMan.cs" />
      <Compile Include="Assets\Scripts\BannerMainMenu.cs" />
      <Compile Include="Assets\Scripts\Boom.cs" />
      <Compile Include="Assets\Scripts\BounceMov.cs" />
